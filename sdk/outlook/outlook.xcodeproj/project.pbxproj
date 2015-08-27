@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002DA8AEE21E2817531525F8 /* MSEntityContainerAttachmentFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2890A47FBB85DA5CB3DC4CDB /* MSEntityContainerAttachmentFetcher.h */; };
+		01E32605488F0C377922D917 /* MSEntityContainerItemAttachmentFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1098FD52F31B1505E0F3C4FC /* MSEntityContainerItemAttachmentFetcher.m */; };
+		03E2ED10CB2A50E69271094E /* MSEntityContainerEventFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF2C1B99003CCCC9BA4508B /* MSEntityContainerEventFetcher.h */; };
+		04515BBD48794AC1F7C21689 /* MSEntityContainerEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC633A8C77AB98C28083803 /* MSEntityContainerEventType.h */; };
+		047F93E5D51BEDF3F2428EC5 /* MSEntityContainerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 93327FB6BA22356A74E8199D /* MSEntityContainerMessage.h */; };
+		04D124A7A92595EE828A7ED5 /* MSEntityContainerContactFolderCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C554A75A096D7F4ABBA727D7 /* MSEntityContainerContactFolderCollectionFetcher.m */; };
+		06BDB7C7A6D9A6A1F8D23A8F /* MSEntityContainerEventFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 869A616D5DF6A1AA74D6486A /* MSEntityContainerEventFetcher.m */; };
+		0856B6C884E00010CAC79B5F /* MSEntityContainerEntityFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8C555AF0C29A15C3D37489 /* MSEntityContainerEntityFetcher.h */; };
+		0B2C7B7F7A3BEB1293E86471 /* MSEntityContainerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BCA3BD1A895E987690E55 /* MSEntityContainerUser.m */; };
+		0CC587050A1DDFC88BF2F25D /* MSEntityContainerItemAttachmentFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C58227690B0CFC838D4525F /* MSEntityContainerItemAttachmentFetcher.h */; };
+		104BB8E223C6F7381A967ACB /* MSEntityContainerEntityCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = E16599B5F6ADC390DBDB8AE3 /* MSEntityContainerEntityCollectionOperations.h */; };
+		10E14708C6DCDFA129EB5502 /* MSEntityContainerFileAttachmentFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D55C45ECB7933AFD251A9E /* MSEntityContainerFileAttachmentFetcher.m */; };
+		1168A7138B0BAEE453299EA6 /* MSEntityContainerMessageOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A7C719C64A5F60C8DFB388 /* MSEntityContainerMessageOperations.m */; };
+		132AC9D3F4348E90888FE0C6 /* MSEntityContainerEventMessageFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA24EA81FBEDD2FC25FA479 /* MSEntityContainerEventMessageFetcher.m */; };
+		15DEE85C1D3865DB1AE1EE30 /* MSEntityContainerContactCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = C263420CCD548444BA91943E /* MSEntityContainerContactCollectionOperations.h */; };
+		17F696FC57DE7458BA98A169 /* MSEntityContainerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7604E6BB4D344A163CDAA210 /* MSEntityContainerEvent.m */; };
+		18E6D8D0F074BC0D5C354B5C /* MSEntityContainerContactOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC3CD2C09CF8C1A4F929448 /* MSEntityContainerContactOperations.h */; };
+		18FCA9979814386DC32ADCA1 /* MSEntityContainerMessageCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D35DEA2488AA1E4774327B /* MSEntityContainerMessageCollectionOperations.m */; };
+		1C4C80D7844278DD8ED8E885 /* MSEntityContainerCalendarGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F552DCBE9EDF1E5397BD9BC /* MSEntityContainerCalendarGroup.h */; };
+		1CC1D06BEC59CD0ADF8A69C2 /* MSEntityContainerCalendarGroupOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B6B0FA688DDCC3EC6BF07E /* MSEntityContainerCalendarGroupOperations.h */; };
+		20653A1FD1858D342CF94C02 /* MSEntityContainerEventCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 949A6B81EB0B7371427A4D4F /* MSEntityContainerEventCollectionOperations.m */; };
+		213F061720EA19F4821B9D73 /* MSEntityContainerContactCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A4396D7FC7DD4F7EBD0408 /* MSEntityContainerContactCollectionOperations.m */; };
+		21A5F347E07B9CB6F310A88A /* MSEntityContainerAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F745549391626738DD7EA4 /* MSEntityContainerAttachment.h */; };
+		23800AF0C3DF01163A281CEF /* MSEntityContainerPhysicalAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F9EC9D50A7BCB15C2212F8 /* MSEntityContainerPhysicalAddress.h */; };
+		239CE883CA37F486A91DC114 /* MSEntityContainerMessageCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = AF87D52C69D164662BB26151 /* MSEntityContainerMessageCollectionOperations.h */; };
+		247DAD582C239C58252E1A7C /* MSEntityContainerMessageOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F48F6FF3EC5DB3266A9B3F /* MSEntityContainerMessageOperations.h */; };
+		25723F43D4D9D6E0072E4DFA /* MSEntityContainerEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71229AAA649E47B73B60A8A6 /* MSEntityContainerEntity.m */; };
+		28FFC661523306FD6B0C1168 /* MSEntityContainerContactFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F89332E1D3E402C3A99C177 /* MSEntityContainerContactFetcher.h */; };
+		2903378EB4DEF74EB0974B08 /* MSEntityContainerCalendarCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = DF68E2E934A7941AEEA32639 /* MSEntityContainerCalendarCollectionOperations.m */; };
+		2B234369988EDEEF2FFB8088 /* MSEntityContainerItemFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7B320B87B4D117700A02C /* MSEntityContainerItemFetcher.m */; };
+		2F3F9B665B14F15466A3F403 /* MSEntityContainerRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 622687C6141644376ADBDA67 /* MSEntityContainerRecipient.m */; };
+		2FBABA3ABD01BBEFE7B51C30 /* MSEntityContainerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9803DC25E0083C44E4D42A72 /* MSEntityContainerItem.m */; };
+		319C3584F141D3B05F030C97 /* MSEntityContainerPatternedRecurrence.m in Sources */ = {isa = PBXBuildFile; fileRef = 914680944A54B9848A3D5C70 /* MSEntityContainerPatternedRecurrence.m */; };
+		331EA8A020773A21D79415DC /* MSEntityContainerItemBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 40461081461318FCDF329C35 /* MSEntityContainerItemBody.h */; };
+		348B7EDBA9C74C5759D4D716 /* MSEntityContainerEventMessageCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3390BE52AD06C47A757243B7 /* MSEntityContainerEventMessageCollectionFetcher.m */; };
+		354E861289D4E41ED4A8ECFF /* MSEntityContainerItemOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D5FEA088191A9EC6EE89DD /* MSEntityContainerItemOperations.m */; };
+		3746C8CF2D015002CC1F9F0D /* MSEntityContainerImportance.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6BE2B6B0A3E74D6C8396C7 /* MSEntityContainerImportance.h */; };
+		378EB17F4C41A91BA49D66F1 /* MSEntityContainerWeekIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 536E945B08473074353A2AC8 /* MSEntityContainerWeekIndex.h */; };
+		381056AD1D6BF83F99EF6B42 /* MSEntityContainerItemCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6425B0DC0B8C43413E4A5CD7 /* MSEntityContainerItemCollectionFetcher.m */; };
+		38591AC63D10C60B18921649 /* MSEntityContainerCalendarOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 6101E8A9A3E1B46796EDF2C6 /* MSEntityContainerCalendarOperations.h */; };
+		38B0FDCB85D9FA938DD52C44 /* MSEntityContainerEventMessageFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E62F24E6FA4DFB20E04DBC13 /* MSEntityContainerEventMessageFetcher.h */; };
+		39B8D225197B6C7F01839587 /* MSEntityContainerUserCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3524D5F0324D0BFACEACC86B /* MSEntityContainerUserCollectionOperations.m */; };
+		3BF453E23F8784637FAC2A92 /* MSEntityContainerEventCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 680514A1624932A73D06392A /* MSEntityContainerEventCollectionOperations.h */; };
+		3C5646A3E9D8D5E2B9DA0E31 /* MSEntityContainerGeoCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E980FD106D8E138F9854263 /* MSEntityContainerGeoCoordinates.m */; };
+		3EC253D242B75205FAC6B551 /* MSEntityContainerRecurrenceRangeType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8161ADFC73566B205659DC47 /* MSEntityContainerRecurrenceRangeType.h */; };
+		3F3BE84C120BA61DD0D9E3DF /* MSEntityContainerResponseStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CD5EBA6FBD6EFFF4DABC49 /* MSEntityContainerResponseStatus.h */; };
+		40C16C623B5DBC859302AE5B /* MSEntityContainerDirectoryObjectCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE536E386802EEAB95FC3E /* MSEntityContainerDirectoryObjectCollectionOperations.m */; };
+		41566E002D69923130BB40D0 /* MSEntityContainerUserFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E351AC91FB811E213FC5D331 /* MSEntityContainerUserFetcher.m */; };
+		4236DBC47E0D76330845032E /* MSEntityContainerDirectoryObjectCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9F0AC61A7ABADE814B4395 /* MSEntityContainerDirectoryObjectCollectionOperations.h */; };
+		46E17917674C4C3EF3ECD22C /* MSEntityContainerCalendarGroupFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A51444DB86D9A43CC92F9F68 /* MSEntityContainerCalendarGroupFetcher.m */; };
+		4773B2EFBE777508EA32D47C /* MSEntityContainerAttendeeType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5A07FDB9800F10A3C01E38 /* MSEntityContainerAttendeeType.h */; };
+		47E28DF6DEB159197D5097E6 /* MSEntityContainerCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5A3A5FC59C67D5687702FF /* MSEntityContainerCalendar.h */; };
+		4BE8FC0B2F28BB1439B12E7F /* MSEntityContainerContactFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC1DD9DEC880C062AAC21D4 /* MSEntityContainerContactFolder.h */; };
+		4CBE37AE26BB7A83223A5AF4 /* MSEntityContainerUserCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EC8C94FC81CDDD6DB13CB0 /* MSEntityContainerUserCollectionFetcher.m */; };
+		4E910F0F8AD6D5804875DE67 /* MSEntityContainerModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFD56E68784E33F61B190C5 /* MSEntityContainerModels.h */; };
+		5277978ED7823514032E0C8A /* MSEntityContainerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CD49D8A31CCDF624ADF82F /* MSEntityContainerClient.h */; };
+		55C176DBFF680BBE3BD4C798 /* MSEntityContainerCalendarOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 586612799F5F35604C59AD70 /* MSEntityContainerCalendarOperations.m */; };
+		57719BF43FA85DA3CF50560E /* MSEntityContainerCalendarFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F900F9AA10BC2A249E036D28 /* MSEntityContainerCalendarFetcher.m */; };
+		57D7B652AC53A5572CE03FB0 /* MSEntityContainerFileAttachmentCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF22E9A5D24E56F416E1BE0 /* MSEntityContainerFileAttachmentCollectionOperations.m */; };
+		5841C7DA051AEC8FED225322 /* MSEntityContainerUser.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DD7AD55BA0289503530C0B /* MSEntityContainerUser.h */; };
+		59568DDDC52E6E462C5CD90C /* MSEntityContainerFileAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E750490AF70858D1BA735FE /* MSEntityContainerFileAttachment.h */; };
+		598C2EAA41EE377A59E0219A /* MSEntityContainerContactFolderFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0D93423A0C649880FFB2A3 /* MSEntityContainerContactFolderFetcher.h */; };
+		5A18490E6FB8AAB369D221AB /* MSEntityContainerDirectoryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9020B33D4E46BA477AC7BF /* MSEntityContainerDirectoryObject.h */; };
+		5B4D5ABABF70EEAC17E86800 /* MSEntityContainerMeetingMessageType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD6CBCFAC95DB2C09ED24D8 /* MSEntityContainerMeetingMessageType.h */; };
+		5F31BEDBF6816D361D62942A /* MSEntityContainerEntityOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = C5773052E92EF5F4750393AF /* MSEntityContainerEntityOperations.m */; };
+		5F5ABC63DC7D8E261039CBAA /* MSEntityContainerEmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E32772E246E288BAD4B1808 /* MSEntityContainerEmailAddress.m */; };
+		5FA5EFA4873C3AC091BE80FF /* MSEntityContainerContactFolderCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF0200CD3BE5587C1242FD /* MSEntityContainerContactFolderCollectionOperations.m */; };
+		60A671A8FE56F1E45AC5AE5A /* MSEntityContainerItemAttachmentOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7545243B28FBFC37CEBCD0DC /* MSEntityContainerItemAttachmentOperations.m */; };
+		61513F776DE2377590C1D3EF /* MSEntityContainerAttachmentOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 25386F0AA776DC687C8C97E2 /* MSEntityContainerAttachmentOperations.h */; };
+		657D96C741B52CE53D3B7FA3 /* MSEntityContainerEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 087620F3BE2282C369088221 /* MSEntityContainerEntity.h */; };
+		6CA7EE8CF54456D6B653621B /* MSEntityContainerDirectoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0048E4AF08BE4C7196375B0F /* MSEntityContainerDirectoryObject.m */; };
+		70A48310758B86B939F75498 /* MSEntityContainerDirectoryObjectCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 328F253BDED3F9262F76209C /* MSEntityContainerDirectoryObjectCollectionFetcher.h */; };
+		7146332F0439131BA47BB6E3 /* MSEntityContainerContactOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F3DDFAD80698CEE6A5284F /* MSEntityContainerContactOperations.m */; };
+		72A7E469EE07589B1DE865D3 /* MSEntityContainerAttachmentOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7337C22752AEF694D5D5C4 /* MSEntityContainerAttachmentOperations.m */; };
+		72B07DE919C23F857DBA9025 /* MSEntityContainerCalendarGroupOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 554193B49FB373FAB2FA56C0 /* MSEntityContainerCalendarGroupOperations.m */; };
+		75BEA4490AE85C257D776A7D /* MSEntityContainerDirectoryObjectOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E3D53D2FE2AB8420559D7C /* MSEntityContainerDirectoryObjectOperations.m */; };
+		75EC70F686295CBCD19A0C4E /* MSEntityContainerAttendee.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EE7E34FE23E6C45781EECE /* MSEntityContainerAttendee.h */; };
+		77D1D7B9C7679E25A87D1F02 /* MSEntityContainerContactFolderFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 37959105F7EE8D9E1D8FAB73 /* MSEntityContainerContactFolderFetcher.m */; };
+		7921B2EC89CA2A3CBB6B89CB /* MSEntityContainerFreeBusyStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADF03853A2E680F5E9961BC /* MSEntityContainerFreeBusyStatus.h */; };
+		7AC0CC9CACACBBCEB3D70B8A /* MSEntityContainerItemBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A3CE8F731024E40355EECD /* MSEntityContainerItemBody.m */; };
+		7B8FBD139FF8EDAFA388B2C4 /* MSEntityContainerAttachmentFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E4840B0FB56363436D26B1FE /* MSEntityContainerAttachmentFetcher.m */; };
+		7D518036D224E09EBFFD6CC8 /* MSEntityContainerDirectoryObjectFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DC7DB5EA02E0995514DCC9 /* MSEntityContainerDirectoryObjectFetcher.h */; };
+		7E0B9E326212B7A3ED54F302 /* MSEntityContainerFileAttachmentFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2425A8C2C73E197CD7A5D1 /* MSEntityContainerFileAttachmentFetcher.h */; };
+		80CA49786F6CDDCB881CB7EC /* libPods-outlook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BCCBFFB8DD0BF720359FE6 /* libPods-outlook.a */; };
+		825FB713CEF185D7F6E9E5CA /* MSEntityContainerRecurrencePattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 0317DC6AA0DFD517FC41B7D7 /* MSEntityContainerRecurrencePattern.h */; };
+		86E143F916D6DBF09E3E2B94 /* MSEntityContainerEntityFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD4CB01A9A573E1685BF878 /* MSEntityContainerEntityFetcher.m */; };
+		880E90C54771FD75EAADF668 /* MSEntityContainerFileAttachmentOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3798E9DF0DB4620CD7FCB248 /* MSEntityContainerFileAttachmentOperations.m */; };
+		889B44082A937276C5386B8C /* MSEntityContainerEventMessageOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 589F2EC959174B86CA0403E9 /* MSEntityContainerEventMessageOperations.m */; };
+		89B1D8BBE124E93B828681B3 /* MSEntityContainerFolderFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA7FC3556042B2FE4A0A176 /* MSEntityContainerFolderFetcher.h */; };
+		8A6EDB57FBE16C44362A2912 /* MSEntityContainerUserOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D6BC81D951FF88D965E551 /* MSEntityContainerUserOperations.h */; };
+		8C7DBBE74E322B2B71A671BB /* MSEntityContainerContact.h in Headers */ = {isa = PBXBuildFile; fileRef = A2416BB73AC7B01C1DEC8010 /* MSEntityContainerContact.h */; };
+		8CCD4FC7ED270B91884C5CE1 /* MSEntityContainerCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF18AE15A5A7A38C567AF0 /* MSEntityContainerCalendar.m */; };
+		8E6F43B1C195623730A1F415 /* MSEntityContainerEventCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC99BA3ACC1E1BD4F0EB76B /* MSEntityContainerEventCollectionFetcher.m */; };
+		8E78EB9CD69584CE3E4C6F9C /* MSEntityContainerEventMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3FF7489D738FB60B182D6F /* MSEntityContainerEventMessage.m */; };
+		8EEF1A6259A00648BD64865B /* MSEntityContainerContactCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EAB12B929CB58810754773F /* MSEntityContainerContactCollectionFetcher.h */; };
+		8F1EF5352E401F03397EEEE7 /* MSEntityContainerPatternedRecurrence.h in Headers */ = {isa = PBXBuildFile; fileRef = 779E36A09BD1ABB875242AFE /* MSEntityContainerPatternedRecurrence.h */; };
+		8F7D296D805FD509E57AC026 /* MSEntityContainerUserOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5AD94BF8B6E7CEE5E3625A /* MSEntityContainerUserOperations.m */; };
+		8FD66F2CC4D2C3CB09193740 /* MSEntityContainerEventOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = DC110C1DE2408A5A5406DB77 /* MSEntityContainerEventOperations.h */; };
+		9038E03AF46CF56DE7A844F0 /* MSEntityContainerMessageCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 944BB32D60822BC844F18BFD /* MSEntityContainerMessageCollectionFetcher.h */; };
+		910AF98B4C6AAFC1E3B792D5 /* MSEntityContainerCalendarColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 242E90EB91EF31B13A291149 /* MSEntityContainerCalendarColor.h */; };
+		9131F18EAA93EB7800191ACA /* MSEntityContainerFolderCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D0527055C09697061324A /* MSEntityContainerFolderCollectionFetcher.m */; };
+		926DD9EB8B163F0A4B6F4AC9 /* MSEntityContainerAttachmentCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FDD6E1F6F202BA569F09CB /* MSEntityContainerAttachmentCollectionOperations.h */; };
+		951D029C79E46E6DB1CBDD5F /* MSEntityContainerAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F15B934A02C6999B5D741 /* MSEntityContainerAttachment.m */; };
+		969751AC5A8A26B6E23C6872 /* MSEntityContainerFileAttachmentCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1888B6BB451730CDD8BFB1 /* MSEntityContainerFileAttachmentCollectionFetcher.h */; };
+		9751AF7175C71E556B26BB9C /* MSEntityContainerLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E034B713EFE41AD1916DCF /* MSEntityContainerLocation.m */; };
+		9840495CF068A50DD8BFFD37 /* MSEntityContainerCalendarCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C24FB15DD5AE6E7E280DD1C /* MSEntityContainerCalendarCollectionFetcher.h */; };
+		98A3C01EC4E41B40FD5C1FAD /* MSEntityContainerEntityCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = C705278743E5DC69B9F61E6D /* MSEntityContainerEntityCollectionOperations.m */; };
+		9AD05F9FC787AC813C12B84F /* MSEntityContainerFetchers.h in Headers */ = {isa = PBXBuildFile; fileRef = D841E475737F293A00F88F0F /* MSEntityContainerFetchers.h */; };
+		A0170AA0AC26DF6C250147BE /* MSEntityContainerResponseType.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EDCFA39BF2726956BC47F0 /* MSEntityContainerResponseType.h */; };
+		A02AA0CC77171BEC9E875FEB /* MSEntityContainerRecurrencePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 70711DD97CA7452E7459521A /* MSEntityContainerRecurrencePattern.m */; };
+		A2ED8463C5B932B5FC81353E /* MSEntityContainerFolderCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F5A4F09561BB0A99FB84FC /* MSEntityContainerFolderCollectionOperations.h */; };
+		A3D00D423EFACCDB455B4B40 /* MSEntityContainerItemCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4E724525B547E8DBC84295 /* MSEntityContainerItemCollectionFetcher.h */; };
+		A4E78E10B1BD76498DD932B5 /* MSEntityContainerCalendarCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 6504697A2DDE4D41DE201F86 /* MSEntityContainerCalendarCollectionOperations.h */; };
+		A6517A62ADE43BA39B1F0118 /* MSEntityContainerCalendarCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8FBF8A51F59598F0354DE7 /* MSEntityContainerCalendarCollectionFetcher.m */; };
+		A71FA7B5F11B86E111261D6D /* MSEntityContainerCalendarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D69FCDCF8E17799D63E43771 /* MSEntityContainerCalendarGroup.m */; };
+		A85EB7DB88AF25C2F2320173 /* MSEntityContainerContactFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6111A68284856D1B07BBD73C /* MSEntityContainerContactFolder.m */; };
+		A866E936C42F1B59BF473ACE /* MSEntityContainerFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F375D5897A611F62791295A7 /* MSEntityContainerFolder.m */; };
+		A9C4128DFD12C287574E4F1A /* MSEntityContainerItemCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCE78DE086424E545F5AED4 /* MSEntityContainerItemCollectionOperations.m */; };
+		A9EE748C6B4AC27EE27DA188 /* MSEntityContainerRecurrenceRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B066DF36C81AD49F717A40C /* MSEntityContainerRecurrenceRange.h */; };
+		AAF2B0BB3E0143CD8B9BE886 /* MSEntityContainerEventOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B13787EBC32967A8146ACC /* MSEntityContainerEventOperations.m */; };
+		ACB740D23D9D0A4AF5671896 /* MSEntityContainerEventCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FB84F115EF175177715C0078 /* MSEntityContainerEventCollectionFetcher.h */; };
+		ADB5406337D60A024877502E /* MSEntityContainerMessageFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E93622B6CAA65A960CDD7466 /* MSEntityContainerMessageFetcher.m */; };
+		ADBD9387BFD5AD138A98C8F8 /* MSEntityContainerFileAttachmentCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B50F8EFE5FFCEF32E751828 /* MSEntityContainerFileAttachmentCollectionFetcher.m */; };
+		ADFC34DB77278CEA8B867B74 /* MSEntityContainerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C8BB67496F74B414E27E84 /* MSEntityContainerMessage.m */; };
+		AF1B69F03A583B5267004BB8 /* MSEntityContainerEventMessageCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 0115784CFBD04DAD1782C424 /* MSEntityContainerEventMessageCollectionOperations.h */; };
+		B01A02C2F0CE45C1B272F5E2 /* MSEntityContainerCalendarGroupCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 392CC76678163E05C218F9BE /* MSEntityContainerCalendarGroupCollectionFetcher.m */; };
+		B45DC0BE9F89C5151D2BB54F /* MSEntityContainerAttachmentCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A127004EA223C33A1CB89F /* MSEntityContainerAttachmentCollectionFetcher.h */; };
+		B55C2652DDAADA303AE0585C /* MSEntityContainerEntityOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D71B7BD475DF9D58B3478C /* MSEntityContainerEntityOperations.h */; };
+		B59ADD39ACF62A55A252EFCF /* MSEntityContainerFolderOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = D78647DF0E510461AD86793E /* MSEntityContainerFolderOperations.h */; };
+		BB16572C09CD3B519151FA4F /* MSEntityContainerItemAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAF302AEE7E6B5E6CF2A12C /* MSEntityContainerItemAttachment.h */; };
+		BC5ECBD2AE0D5C7308A22A52 /* MSEntityContainerUserCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D8E94A442D23A29A31BB01 /* MSEntityContainerUserCollectionOperations.h */; };
+		BCC61FC0046CD11AA34C5B48 /* MSEntityContainerCalendarGroupCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E9797DAE47EC3827765CE154 /* MSEntityContainerCalendarGroupCollectionFetcher.h */; };
+		BD3C97273F833B78140CA918 /* MSEntityContainerRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E6C36638A27EE0FC58042E /* MSEntityContainerRecipient.h */; };
+		C2B40051B4FEB89A1E2EC9DF /* MSEntityContainerLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4229DC74BD80FF7F2C2FEFE0 /* MSEntityContainerLocation.h */; };
+		C497B5EF13A2499D64695AF5 /* MSEntityContainerItemAttachmentCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E9600140B56C72C6AD6136A8 /* MSEntityContainerItemAttachmentCollectionFetcher.m */; };
+		C5058E183F899DF318EE73D4 /* MSEntityContainerContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB91A29AE03FC4AD8293CFD /* MSEntityContainerContact.m */; };
+		C5750276B68CB4F7B204CC2A /* MSEntityContainerUserFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 82ECFACAF5A45173BA6AAEB2 /* MSEntityContainerUserFetcher.h */; };
+		C6D94009C9DF8E1D142391E2 /* MSEntityContainerEntityCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE7C7F7C35720234264FA83 /* MSEntityContainerEntityCollectionFetcher.m */; };
+		C72EFCE6F3CC8694496CA842 /* MSEntityContainerContactFolderCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE5CDEF76677D49589A174B /* MSEntityContainerContactFolderCollectionFetcher.h */; };
+		C966B1D5790A3C9B38FDABFA /* MSEntityContainerFileAttachmentCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9A97AF3AA6DE7CB58D6F6D /* MSEntityContainerFileAttachmentCollectionOperations.h */; };
+		CA09FF11771CA115020CC213 /* MSEntityContainerItemAttachmentCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F42D6AD1D65145631BF409D1 /* MSEntityContainerItemAttachmentCollectionFetcher.h */; };
+		CCA8E925A8D78806ECE21E75 /* MSEntityContainerAttachmentCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 692E4C99EF3A01823820C5A7 /* MSEntityContainerAttachmentCollectionOperations.m */; };
+		CFF2AAE23DB8BC337525D3D1 /* MSEntityContainerDirectoryObjectOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B67DA8C0591052E5D88AE3B /* MSEntityContainerDirectoryObjectOperations.h */; };
+		D195C8934B5B02C8A428D421 /* MSEntityContainerCalendarGroupFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C95E0824F43549A7D55970F /* MSEntityContainerCalendarGroupFetcher.h */; };
+		D4708FCD8A31A369A42DDBB9 /* MSEntityContainerContactFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CA926C217ADC7627234160F8 /* MSEntityContainerContactFetcher.m */; };
+		D4E5AD8CC4EA14B3A5BCA08F /* MSEntityContainerItemAttachmentCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED4E0E435DE8025625B6DB8 /* MSEntityContainerItemAttachmentCollectionOperations.h */; };
+		D608083556E872E8F7999B4D /* MSEntityContainerContactFolderCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 2505A48585AB42F022E0A16A /* MSEntityContainerContactFolderCollectionOperations.h */; };
+		D67B9E0628327EED99D6A0C1 /* MSEntityContainerFolderCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CB94564F1EB2AC30E988D263 /* MSEntityContainerFolderCollectionFetcher.h */; };
+		D75C5302CB5AA16580009A66 /* MSEntityContainerContactCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 35995262BA310F975EDED50F /* MSEntityContainerContactCollectionFetcher.m */; };
+		D75F0E702730D9F1DB779C8D /* MSEntityContainerItemAttachmentCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5BF4A02973E9604044B193 /* MSEntityContainerItemAttachmentCollectionOperations.m */; };
+		D923950611DACE4E08ADE344 /* MSEntityContainerEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1669BCF4CC365371C6486D /* MSEntityContainerEvent.h */; };
+		DB40621B7CFBF95A6E517314 /* MSEntityContainerItemOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 6466E934DDA65A0C118A3165 /* MSEntityContainerItemOperations.h */; };
+		DBF12D06B5D2C6F0EC29923E /* MSEntityContainerMessageCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5DFD6177B1CBBFF43B0 /* MSEntityContainerMessageCollectionFetcher.m */; };
+		DE05AD5A8D3E15FF78797F4B /* MSEntityContainerFolderCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 1807287AADAF66C2D880BA6F /* MSEntityContainerFolderCollectionOperations.m */; };
+		DF326974060D14E038ECFA5A /* MSEntityContainerEventMessageOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E0B3F0ED3151547F8D3202 /* MSEntityContainerEventMessageOperations.h */; };
+		DFDF7EB560EED400AA3C943D /* MSEntityContainerItemAttachmentOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 502BCF120D1BCBE20DB2A1DA /* MSEntityContainerItemAttachmentOperations.h */; };
+		E119364E645BB4B470E2EB62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAACCF07BA6EA29FC652877 /* Foundation.framework */; };
+		E484035FA00A3E1C22F40410 /* MSEntityContainerDirectoryObjectFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 698D7BEE92114485C1D1CEA4 /* MSEntityContainerDirectoryObjectFetcher.m */; };
+		E55AF06D5CB3B9CCDCD965FC /* MSEntityContainerAttendee.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B45FF59B15DFDAD23257B /* MSEntityContainerAttendee.m */; };
+		E5B7A3E2EB37B6BAE5548498 /* MSEntityContainerEmailAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C7E156DD4F77088E964F26 /* MSEntityContainerEmailAddress.h */; };
+		E83D7BE8BE3239BA5A86DDCB /* MSEntityContainerCalendarGroupCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 758A718E0C6BADB134CE6C51 /* MSEntityContainerCalendarGroupCollectionOperations.h */; };
+		E868B92BA9381315970D8A8F /* MSEntityContainerFileAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784EA8008A51E52757AE827 /* MSEntityContainerFileAttachment.m */; };
+		E86D5A4AE91CB27900548769 /* MSEntityContainerRecurrencePatternType.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EEBA0CB3F415AD751C6D4A /* MSEntityContainerRecurrencePatternType.h */; };
+		EAC3C0FC86546C5676884AC0 /* MSEntityContainerFolderFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 83587D901DCEBC49F5BD4E0C /* MSEntityContainerFolderFetcher.m */; };
+		EB3AF4CB489675C05EA4408A /* MSEntityContainerRecurrenceRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 26371961A65F5639833BF20B /* MSEntityContainerRecurrenceRange.m */; };
+		EC785229F947C7BBB95C33FE /* MSEntityContainerEventMessageCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B957F38BEEEBB338262C8E6 /* MSEntityContainerEventMessageCollectionOperations.m */; };
+		EE8F69243B806B640239335E /* MSEntityContainerItemAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFE75C94A71655FBBF7E311 /* MSEntityContainerItemAttachment.m */; };
+		EF5C3072DFFB56A4848DB3BA /* MSEntityContainerItemCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E41EDC305F6500D09D06B8 /* MSEntityContainerItemCollectionOperations.h */; };
+		F223E5D219856A9D3803C759 /* MSEntityContainerPhysicalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EC1E3EC67C4864018915A4 /* MSEntityContainerPhysicalAddress.m */; };
+		F365CFC0817BBF9563AD819F /* MSEntityContainerEventMessageCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F92FC86B4DE937AC0C02255 /* MSEntityContainerEventMessageCollectionFetcher.h */; };
+		F450E63130FF1B55B28E584B /* MSEntityContainerEventMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2CD7BF6B0402C83985313E /* MSEntityContainerEventMessage.h */; };
+		F46A60020ED8446EA0FD6412 /* MSEntityContainerFileAttachmentOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 82572F1E254CC0F83443C6C5 /* MSEntityContainerFileAttachmentOperations.h */; };
+		F49DBE43C68C18B2E35071B9 /* MSEntityContainerFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BD894051A4192B4148538C /* MSEntityContainerFolder.h */; };
+		F4E9AFD9F7F5B241BC6F0A71 /* MSEntityContainerGeoCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C488C7523B055929BA4436A /* MSEntityContainerGeoCoordinates.h */; };
+		F5894279BE77461613D16F62 /* MSEntityContainerFolderOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = CA300370A50E970E459F50EF /* MSEntityContainerFolderOperations.m */; };
+		F7098AB35C01C34AF027B245 /* MSEntityContainerUserCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D96D18037430DDFD3D7C58 /* MSEntityContainerUserCollectionFetcher.h */; };
+		F7D5CE9D9C3AE3716A19050E /* MSEntityContainerItemFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB534F296F13F494D5C25FE /* MSEntityContainerItemFetcher.h */; };
+		F8E188B34DF4A5897909B34F /* MSEntityContainerMessageFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3474BD610A969D261B974503 /* MSEntityContainerMessageFetcher.h */; };
+		F8EA573343C3CDD0BEA39C97 /* MSEntityContainerAttachmentCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C430832521F4B3A5A6AA2DF /* MSEntityContainerAttachmentCollectionFetcher.m */; };
+		F94BD9A6A69FA6537E84B408 /* MSEntityContainerCalendarGroupCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5923C149588CB32F6646E4 /* MSEntityContainerCalendarGroupCollectionOperations.m */; };
+		F9A7BEDB75A15156AB380240 /* MSEntityContainerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 462A13A188E7CEC2AECF5182 /* MSEntityContainerItem.h */; };
+		FA7D188294C4A42E619C5A7D /* MSEntityContainerEntityCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB210ACEE5B8C0DA6FD1CA0 /* MSEntityContainerEntityCollectionFetcher.h */; };
+		FADCE7FC2FED31DD3738BB44 /* MSEntityContainerDirectoryObjectCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1C0ACBC53E10C4C6A6601E /* MSEntityContainerDirectoryObjectCollectionFetcher.m */; };
+		FAE1B2905FD6E20BBD88B69F /* MSEntityContainerContactFolderOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F43A57EE809241076F39EE /* MSEntityContainerContactFolderOperations.m */; };
+		FB51892593F68DB6CB105493 /* MSEntityContainerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 095BE2D1418CC86D911D70AD /* MSEntityContainerClient.m */; };
+		FC18C445FE5F622CFE10CACE /* MSEntityContainerResponseStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = AE57DD51F0EE18E6C63F3343 /* MSEntityContainerResponseStatus.m */; };
+		FEC4B14B4282034E9336198C /* MSEntityContainerCalendarFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B853C63731177698A2C8F7 /* MSEntityContainerCalendarFetcher.h */; };
+		FEDA553C0F570D2273BEB354 /* MSEntityContainerContactFolderOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3862277730A8F0889F0C630D /* MSEntityContainerContactFolderOperations.h */; };
+		FF292835A8A40E2057EE238F /* MSEntityContainerBodyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 787F604F3B5BAF5E33595C36 /* MSEntityContainerBodyType.h */; };
+		FF9216F9D293A6CA19AC8628 /* MSEntityContainerDayOfWeek.h in Headers */ = {isa = PBXBuildFile; fileRef = 1916C28291EB3786CC39F5F8 /* MSEntityContainerDayOfWeek.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0048E4AF08BE4C7196375B0F /* MSEntityContainerDirectoryObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerDirectoryObject.m; path = ./Model/MSEntityContainerDirectoryObject.m; sourceTree = "<group>"; };
+		00E41EDC305F6500D09D06B8 /* MSEntityContainerItemCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemCollectionOperations.h; path = ./Fetchers/MSEntityContainerItemCollectionOperations.h; sourceTree = "<group>"; };
+		0115784CFBD04DAD1782C424 /* MSEntityContainerEventMessageCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventMessageCollectionOperations.h; path = ./Fetchers/MSEntityContainerEventMessageCollectionOperations.h; sourceTree = "<group>"; };
+		0317DC6AA0DFD517FC41B7D7 /* MSEntityContainerRecurrencePattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerRecurrencePattern.h; path = ./Model/MSEntityContainerRecurrencePattern.h; sourceTree = "<group>"; };
+		03EEBA0CB3F415AD751C6D4A /* MSEntityContainerRecurrencePatternType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerRecurrencePatternType.h; path = ./Model/MSEntityContainerRecurrencePatternType.h; sourceTree = "<group>"; };
+		05C8BB67496F74B414E27E84 /* MSEntityContainerMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerMessage.m; path = ./Model/MSEntityContainerMessage.m; sourceTree = "<group>"; };
+		0784EA8008A51E52757AE827 /* MSEntityContainerFileAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFileAttachment.m; path = ./Model/MSEntityContainerFileAttachment.m; sourceTree = "<group>"; };
+		087620F3BE2282C369088221 /* MSEntityContainerEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEntity.h; path = ./Model/MSEntityContainerEntity.h; sourceTree = "<group>"; };
+		095BE2D1418CC86D911D70AD /* MSEntityContainerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerClient.m; path = ./Fetchers/MSEntityContainerClient.m; sourceTree = "<group>"; };
+		0B0D93423A0C649880FFB2A3 /* MSEntityContainerContactFolderFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactFolderFetcher.h; path = ./Fetchers/MSEntityContainerContactFolderFetcher.h; sourceTree = "<group>"; };
+		0B50F8EFE5FFCEF32E751828 /* MSEntityContainerFileAttachmentCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFileAttachmentCollectionFetcher.m; path = ./Fetchers/MSEntityContainerFileAttachmentCollectionFetcher.m; sourceTree = "<group>"; };
+		0EC633A8C77AB98C28083803 /* MSEntityContainerEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventType.h; path = ./Model/MSEntityContainerEventType.h; sourceTree = "<group>"; };
+		0EE5CDEF76677D49589A174B /* MSEntityContainerContactFolderCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactFolderCollectionFetcher.h; path = ./Fetchers/MSEntityContainerContactFolderCollectionFetcher.h; sourceTree = "<group>"; };
+		0F552DCBE9EDF1E5397BD9BC /* MSEntityContainerCalendarGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarGroup.h; path = ./Model/MSEntityContainerCalendarGroup.h; sourceTree = "<group>"; };
+		0F89332E1D3E402C3A99C177 /* MSEntityContainerContactFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactFetcher.h; path = ./Fetchers/MSEntityContainerContactFetcher.h; sourceTree = "<group>"; };
+		1098FD52F31B1505E0F3C4FC /* MSEntityContainerItemAttachmentFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemAttachmentFetcher.m; path = ./Fetchers/MSEntityContainerItemAttachmentFetcher.m; sourceTree = "<group>"; };
+		10C7E156DD4F77088E964F26 /* MSEntityContainerEmailAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEmailAddress.h; path = ./Model/MSEntityContainerEmailAddress.h; sourceTree = "<group>"; };
+		12F745549391626738DD7EA4 /* MSEntityContainerAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerAttachment.h; path = ./Model/MSEntityContainerAttachment.h; sourceTree = "<group>"; };
+		1807287AADAF66C2D880BA6F /* MSEntityContainerFolderCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFolderCollectionOperations.m; path = ./Fetchers/MSEntityContainerFolderCollectionOperations.m; sourceTree = "<group>"; };
+		18F5A4F09561BB0A99FB84FC /* MSEntityContainerFolderCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFolderCollectionOperations.h; path = ./Fetchers/MSEntityContainerFolderCollectionOperations.h; sourceTree = "<group>"; };
+		1916C28291EB3786CC39F5F8 /* MSEntityContainerDayOfWeek.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerDayOfWeek.h; path = ./Model/MSEntityContainerDayOfWeek.h; sourceTree = "<group>"; };
+		19A7C719C64A5F60C8DFB388 /* MSEntityContainerMessageOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerMessageOperations.m; path = ./Fetchers/MSEntityContainerMessageOperations.m; sourceTree = "<group>"; };
+		19BCCBFFB8DD0BF720359FE6 /* libPods-outlook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-outlook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADF03853A2E680F5E9961BC /* MSEntityContainerFreeBusyStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFreeBusyStatus.h; path = ./Model/MSEntityContainerFreeBusyStatus.h; sourceTree = "<group>"; };
+		1B9020B33D4E46BA477AC7BF /* MSEntityContainerDirectoryObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerDirectoryObject.h; path = ./Model/MSEntityContainerDirectoryObject.h; sourceTree = "<group>"; };
+		1B957F38BEEEBB338262C8E6 /* MSEntityContainerEventMessageCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventMessageCollectionOperations.m; path = ./Fetchers/MSEntityContainerEventMessageCollectionOperations.m; sourceTree = "<group>"; };
+		1C24FB15DD5AE6E7E280DD1C /* MSEntityContainerCalendarCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarCollectionFetcher.h; path = ./Fetchers/MSEntityContainerCalendarCollectionFetcher.h; sourceTree = "<group>"; };
+		1C488C7523B055929BA4436A /* MSEntityContainerGeoCoordinates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerGeoCoordinates.h; path = ./Model/MSEntityContainerGeoCoordinates.h; sourceTree = "<group>"; };
+		1CA3BCF30974DAD1968117E0 /* liboutlook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liboutlook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1C0ACBC53E10C4C6A6601E /* MSEntityContainerDirectoryObjectCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerDirectoryObjectCollectionFetcher.m; path = ./Fetchers/MSEntityContainerDirectoryObjectCollectionFetcher.m; sourceTree = "<group>"; };
+		1E980FD106D8E138F9854263 /* MSEntityContainerGeoCoordinates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerGeoCoordinates.m; path = ./Model/MSEntityContainerGeoCoordinates.m; sourceTree = "<group>"; };
+		1F92FC86B4DE937AC0C02255 /* MSEntityContainerEventMessageCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventMessageCollectionFetcher.h; path = ./Fetchers/MSEntityContainerEventMessageCollectionFetcher.h; sourceTree = "<group>"; };
+		22D71B7BD475DF9D58B3478C /* MSEntityContainerEntityOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEntityOperations.h; path = ./Fetchers/MSEntityContainerEntityOperations.h; sourceTree = "<group>"; };
+		22F43A57EE809241076F39EE /* MSEntityContainerContactFolderOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactFolderOperations.m; path = ./Fetchers/MSEntityContainerContactFolderOperations.m; sourceTree = "<group>"; };
+		242E90EB91EF31B13A291149 /* MSEntityContainerCalendarColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarColor.h; path = ./Model/MSEntityContainerCalendarColor.h; sourceTree = "<group>"; };
+		2505A48585AB42F022E0A16A /* MSEntityContainerContactFolderCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactFolderCollectionOperations.h; path = ./Fetchers/MSEntityContainerContactFolderCollectionOperations.h; sourceTree = "<group>"; };
+		25386F0AA776DC687C8C97E2 /* MSEntityContainerAttachmentOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerAttachmentOperations.h; path = ./Fetchers/MSEntityContainerAttachmentOperations.h; sourceTree = "<group>"; };
+		26371961A65F5639833BF20B /* MSEntityContainerRecurrenceRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerRecurrenceRange.m; path = ./Model/MSEntityContainerRecurrenceRange.m; sourceTree = "<group>"; };
+		27259CB71AAF4BFF2E3F7F06 /* Pods-outlook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outlook.release.xcconfig"; path = "../Pods/Target Support Files/Pods-outlook/Pods-outlook.release.xcconfig"; sourceTree = "<group>"; };
+		27F3DDFAD80698CEE6A5284F /* MSEntityContainerContactOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactOperations.m; path = ./Fetchers/MSEntityContainerContactOperations.m; sourceTree = "<group>"; };
+		288BCA3BD1A895E987690E55 /* MSEntityContainerUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerUser.m; path = ./Model/MSEntityContainerUser.m; sourceTree = "<group>"; };
+		2890A47FBB85DA5CB3DC4CDB /* MSEntityContainerAttachmentFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerAttachmentFetcher.h; path = ./Fetchers/MSEntityContainerAttachmentFetcher.h; sourceTree = "<group>"; };
+		2A4E724525B547E8DBC84295 /* MSEntityContainerItemCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemCollectionFetcher.h; path = ./Fetchers/MSEntityContainerItemCollectionFetcher.h; sourceTree = "<group>"; };
+		2A5B45FF59B15DFDAD23257B /* MSEntityContainerAttendee.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerAttendee.m; path = ./Model/MSEntityContainerAttendee.m; sourceTree = "<group>"; };
+		2B066DF36C81AD49F717A40C /* MSEntityContainerRecurrenceRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerRecurrenceRange.h; path = ./Model/MSEntityContainerRecurrenceRange.h; sourceTree = "<group>"; };
+		2CC7B320B87B4D117700A02C /* MSEntityContainerItemFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemFetcher.m; path = ./Fetchers/MSEntityContainerItemFetcher.m; sourceTree = "<group>"; };
+		2CF2C1B99003CCCC9BA4508B /* MSEntityContainerEventFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventFetcher.h; path = ./Fetchers/MSEntityContainerEventFetcher.h; sourceTree = "<group>"; };
+		2ED4E0E435DE8025625B6DB8 /* MSEntityContainerItemAttachmentCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemAttachmentCollectionOperations.h; path = ./Fetchers/MSEntityContainerItemAttachmentCollectionOperations.h; sourceTree = "<group>"; };
+		328F253BDED3F9262F76209C /* MSEntityContainerDirectoryObjectCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerDirectoryObjectCollectionFetcher.h; path = ./Fetchers/MSEntityContainerDirectoryObjectCollectionFetcher.h; sourceTree = "<group>"; };
+		3390BE52AD06C47A757243B7 /* MSEntityContainerEventMessageCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventMessageCollectionFetcher.m; path = ./Fetchers/MSEntityContainerEventMessageCollectionFetcher.m; sourceTree = "<group>"; };
+		3474BD610A969D261B974503 /* MSEntityContainerMessageFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerMessageFetcher.h; path = ./Fetchers/MSEntityContainerMessageFetcher.h; sourceTree = "<group>"; };
+		3524D5F0324D0BFACEACC86B /* MSEntityContainerUserCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerUserCollectionOperations.m; path = ./Fetchers/MSEntityContainerUserCollectionOperations.m; sourceTree = "<group>"; };
+		35995262BA310F975EDED50F /* MSEntityContainerContactCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactCollectionFetcher.m; path = ./Fetchers/MSEntityContainerContactCollectionFetcher.m; sourceTree = "<group>"; };
+		37959105F7EE8D9E1D8FAB73 /* MSEntityContainerContactFolderFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactFolderFetcher.m; path = ./Fetchers/MSEntityContainerContactFolderFetcher.m; sourceTree = "<group>"; };
+		3798E9DF0DB4620CD7FCB248 /* MSEntityContainerFileAttachmentOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFileAttachmentOperations.m; path = ./Fetchers/MSEntityContainerFileAttachmentOperations.m; sourceTree = "<group>"; };
+		3862277730A8F0889F0C630D /* MSEntityContainerContactFolderOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactFolderOperations.h; path = ./Fetchers/MSEntityContainerContactFolderOperations.h; sourceTree = "<group>"; };
+		38D5FEA088191A9EC6EE89DD /* MSEntityContainerItemOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemOperations.m; path = ./Fetchers/MSEntityContainerItemOperations.m; sourceTree = "<group>"; };
+		392CC76678163E05C218F9BE /* MSEntityContainerCalendarGroupCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarGroupCollectionFetcher.m; path = ./Fetchers/MSEntityContainerCalendarGroupCollectionFetcher.m; sourceTree = "<group>"; };
+		3AA24EA81FBEDD2FC25FA479 /* MSEntityContainerEventMessageFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventMessageFetcher.m; path = ./Fetchers/MSEntityContainerEventMessageFetcher.m; sourceTree = "<group>"; };
+		3BB91A29AE03FC4AD8293CFD /* MSEntityContainerContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContact.m; path = ./Model/MSEntityContainerContact.m; sourceTree = "<group>"; };
+		3F9A97AF3AA6DE7CB58D6F6D /* MSEntityContainerFileAttachmentCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFileAttachmentCollectionOperations.h; path = ./Fetchers/MSEntityContainerFileAttachmentCollectionOperations.h; sourceTree = "<group>"; };
+		40461081461318FCDF329C35 /* MSEntityContainerItemBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemBody.h; path = ./Model/MSEntityContainerItemBody.h; sourceTree = "<group>"; };
+		41EC1E3EC67C4864018915A4 /* MSEntityContainerPhysicalAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerPhysicalAddress.m; path = ./Model/MSEntityContainerPhysicalAddress.m; sourceTree = "<group>"; };
+		4229DC74BD80FF7F2C2FEFE0 /* MSEntityContainerLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerLocation.h; path = ./Model/MSEntityContainerLocation.h; sourceTree = "<group>"; };
+		432D0527055C09697061324A /* MSEntityContainerFolderCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFolderCollectionFetcher.m; path = ./Fetchers/MSEntityContainerFolderCollectionFetcher.m; sourceTree = "<group>"; };
+		44EC8C94FC81CDDD6DB13CB0 /* MSEntityContainerUserCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerUserCollectionFetcher.m; path = ./Fetchers/MSEntityContainerUserCollectionFetcher.m; sourceTree = "<group>"; };
+		462A13A188E7CEC2AECF5182 /* MSEntityContainerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItem.h; path = ./Model/MSEntityContainerItem.h; sourceTree = "<group>"; };
+		48E0B3F0ED3151547F8D3202 /* MSEntityContainerEventMessageOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventMessageOperations.h; path = ./Fetchers/MSEntityContainerEventMessageOperations.h; sourceTree = "<group>"; };
+		4B67DA8C0591052E5D88AE3B /* MSEntityContainerDirectoryObjectOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerDirectoryObjectOperations.h; path = ./Fetchers/MSEntityContainerDirectoryObjectOperations.h; sourceTree = "<group>"; };
+		4C430832521F4B3A5A6AA2DF /* MSEntityContainerAttachmentCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerAttachmentCollectionFetcher.m; path = ./Fetchers/MSEntityContainerAttachmentCollectionFetcher.m; sourceTree = "<group>"; };
+		4E32772E246E288BAD4B1808 /* MSEntityContainerEmailAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEmailAddress.m; path = ./Model/MSEntityContainerEmailAddress.m; sourceTree = "<group>"; };
+		4EAB12B929CB58810754773F /* MSEntityContainerContactCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactCollectionFetcher.h; path = ./Fetchers/MSEntityContainerContactCollectionFetcher.h; sourceTree = "<group>"; };
+		502BCF120D1BCBE20DB2A1DA /* MSEntityContainerItemAttachmentOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemAttachmentOperations.h; path = ./Fetchers/MSEntityContainerItemAttachmentOperations.h; sourceTree = "<group>"; };
+		536E945B08473074353A2AC8 /* MSEntityContainerWeekIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerWeekIndex.h; path = ./Model/MSEntityContainerWeekIndex.h; sourceTree = "<group>"; };
+		554193B49FB373FAB2FA56C0 /* MSEntityContainerCalendarGroupOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarGroupOperations.m; path = ./Fetchers/MSEntityContainerCalendarGroupOperations.m; sourceTree = "<group>"; };
+		55EE7E34FE23E6C45781EECE /* MSEntityContainerAttendee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerAttendee.h; path = ./Model/MSEntityContainerAttendee.h; sourceTree = "<group>"; };
+		57D96D18037430DDFD3D7C58 /* MSEntityContainerUserCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerUserCollectionFetcher.h; path = ./Fetchers/MSEntityContainerUserCollectionFetcher.h; sourceTree = "<group>"; };
+		586612799F5F35604C59AD70 /* MSEntityContainerCalendarOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarOperations.m; path = ./Fetchers/MSEntityContainerCalendarOperations.m; sourceTree = "<group>"; };
+		589F2EC959174B86CA0403E9 /* MSEntityContainerEventMessageOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventMessageOperations.m; path = ./Fetchers/MSEntityContainerEventMessageOperations.m; sourceTree = "<group>"; };
+		5BEF0200CD3BE5587C1242FD /* MSEntityContainerContactFolderCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactFolderCollectionOperations.m; path = ./Fetchers/MSEntityContainerContactFolderCollectionOperations.m; sourceTree = "<group>"; };
+		5FAF302AEE7E6B5E6CF2A12C /* MSEntityContainerItemAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemAttachment.h; path = ./Model/MSEntityContainerItemAttachment.h; sourceTree = "<group>"; };
+		6101E8A9A3E1B46796EDF2C6 /* MSEntityContainerCalendarOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarOperations.h; path = ./Fetchers/MSEntityContainerCalendarOperations.h; sourceTree = "<group>"; };
+		6111A68284856D1B07BBD73C /* MSEntityContainerContactFolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactFolder.m; path = ./Model/MSEntityContainerContactFolder.m; sourceTree = "<group>"; };
+		61B13787EBC32967A8146ACC /* MSEntityContainerEventOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventOperations.m; path = ./Fetchers/MSEntityContainerEventOperations.m; sourceTree = "<group>"; };
+		622687C6141644376ADBDA67 /* MSEntityContainerRecipient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerRecipient.m; path = ./Model/MSEntityContainerRecipient.m; sourceTree = "<group>"; };
+		63CD5EBA6FBD6EFFF4DABC49 /* MSEntityContainerResponseStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerResponseStatus.h; path = ./Model/MSEntityContainerResponseStatus.h; sourceTree = "<group>"; };
+		6425B0DC0B8C43413E4A5CD7 /* MSEntityContainerItemCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemCollectionFetcher.m; path = ./Fetchers/MSEntityContainerItemCollectionFetcher.m; sourceTree = "<group>"; };
+		6466E934DDA65A0C118A3165 /* MSEntityContainerItemOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemOperations.h; path = ./Fetchers/MSEntityContainerItemOperations.h; sourceTree = "<group>"; };
+		64BD894051A4192B4148538C /* MSEntityContainerFolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFolder.h; path = ./Model/MSEntityContainerFolder.h; sourceTree = "<group>"; };
+		6504697A2DDE4D41DE201F86 /* MSEntityContainerCalendarCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarCollectionOperations.h; path = ./Fetchers/MSEntityContainerCalendarCollectionOperations.h; sourceTree = "<group>"; };
+		65B6B0FA688DDCC3EC6BF07E /* MSEntityContainerCalendarGroupOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarGroupOperations.h; path = ./Fetchers/MSEntityContainerCalendarGroupOperations.h; sourceTree = "<group>"; };
+		680514A1624932A73D06392A /* MSEntityContainerEventCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventCollectionOperations.h; path = ./Fetchers/MSEntityContainerEventCollectionOperations.h; sourceTree = "<group>"; };
+		692E4C99EF3A01823820C5A7 /* MSEntityContainerAttachmentCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerAttachmentCollectionOperations.m; path = ./Fetchers/MSEntityContainerAttachmentCollectionOperations.m; sourceTree = "<group>"; };
+		698D7BEE92114485C1D1CEA4 /* MSEntityContainerDirectoryObjectFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerDirectoryObjectFetcher.m; path = ./Fetchers/MSEntityContainerDirectoryObjectFetcher.m; sourceTree = "<group>"; };
+		6B5A07FDB9800F10A3C01E38 /* MSEntityContainerAttendeeType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerAttendeeType.h; path = ./Model/MSEntityContainerAttendeeType.h; sourceTree = "<group>"; };
+		6EF22E9A5D24E56F416E1BE0 /* MSEntityContainerFileAttachmentCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFileAttachmentCollectionOperations.m; path = ./Fetchers/MSEntityContainerFileAttachmentCollectionOperations.m; sourceTree = "<group>"; };
+		70711DD97CA7452E7459521A /* MSEntityContainerRecurrencePattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerRecurrencePattern.m; path = ./Model/MSEntityContainerRecurrencePattern.m; sourceTree = "<group>"; };
+		71229AAA649E47B73B60A8A6 /* MSEntityContainerEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEntity.m; path = ./Model/MSEntityContainerEntity.m; sourceTree = "<group>"; };
+		7545243B28FBFC37CEBCD0DC /* MSEntityContainerItemAttachmentOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemAttachmentOperations.m; path = ./Fetchers/MSEntityContainerItemAttachmentOperations.m; sourceTree = "<group>"; };
+		758A718E0C6BADB134CE6C51 /* MSEntityContainerCalendarGroupCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarGroupCollectionOperations.h; path = ./Fetchers/MSEntityContainerCalendarGroupCollectionOperations.h; sourceTree = "<group>"; };
+		7604E6BB4D344A163CDAA210 /* MSEntityContainerEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEvent.m; path = ./Model/MSEntityContainerEvent.m; sourceTree = "<group>"; };
+		76D35DEA2488AA1E4774327B /* MSEntityContainerMessageCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerMessageCollectionOperations.m; path = ./Fetchers/MSEntityContainerMessageCollectionOperations.m; sourceTree = "<group>"; };
+		779E36A09BD1ABB875242AFE /* MSEntityContainerPatternedRecurrence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerPatternedRecurrence.h; path = ./Model/MSEntityContainerPatternedRecurrence.h; sourceTree = "<group>"; };
+		787F604F3B5BAF5E33595C36 /* MSEntityContainerBodyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerBodyType.h; path = ./Model/MSEntityContainerBodyType.h; sourceTree = "<group>"; };
+		7DA7FC3556042B2FE4A0A176 /* MSEntityContainerFolderFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFolderFetcher.h; path = ./Fetchers/MSEntityContainerFolderFetcher.h; sourceTree = "<group>"; };
+		7DEF18AE15A5A7A38C567AF0 /* MSEntityContainerCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendar.m; path = ./Model/MSEntityContainerCalendar.m; sourceTree = "<group>"; };
+		8161ADFC73566B205659DC47 /* MSEntityContainerRecurrenceRangeType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerRecurrenceRangeType.h; path = ./Model/MSEntityContainerRecurrenceRangeType.h; sourceTree = "<group>"; };
+		82572F1E254CC0F83443C6C5 /* MSEntityContainerFileAttachmentOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFileAttachmentOperations.h; path = ./Fetchers/MSEntityContainerFileAttachmentOperations.h; sourceTree = "<group>"; };
+		82ECFACAF5A45173BA6AAEB2 /* MSEntityContainerUserFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerUserFetcher.h; path = ./Fetchers/MSEntityContainerUserFetcher.h; sourceTree = "<group>"; };
+		83587D901DCEBC49F5BD4E0C /* MSEntityContainerFolderFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFolderFetcher.m; path = ./Fetchers/MSEntityContainerFolderFetcher.m; sourceTree = "<group>"; };
+		83A3CE8F731024E40355EECD /* MSEntityContainerItemBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemBody.m; path = ./Model/MSEntityContainerItemBody.m; sourceTree = "<group>"; };
+		869A616D5DF6A1AA74D6486A /* MSEntityContainerEventFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventFetcher.m; path = ./Fetchers/MSEntityContainerEventFetcher.m; sourceTree = "<group>"; };
+		87D6BC81D951FF88D965E551 /* MSEntityContainerUserOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerUserOperations.h; path = ./Fetchers/MSEntityContainerUserOperations.h; sourceTree = "<group>"; };
+		898F15B934A02C6999B5D741 /* MSEntityContainerAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerAttachment.m; path = ./Model/MSEntityContainerAttachment.m; sourceTree = "<group>"; };
+		8B1888B6BB451730CDD8BFB1 /* MSEntityContainerFileAttachmentCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFileAttachmentCollectionFetcher.h; path = ./Fetchers/MSEntityContainerFileAttachmentCollectionFetcher.h; sourceTree = "<group>"; };
+		8B8A1A3B380C7479BDF2E276 /* Pods-outlook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outlook.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-outlook/Pods-outlook.debug.xcconfig"; sourceTree = "<group>"; };
+		8C58227690B0CFC838D4525F /* MSEntityContainerItemAttachmentFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemAttachmentFetcher.h; path = ./Fetchers/MSEntityContainerItemAttachmentFetcher.h; sourceTree = "<group>"; };
+		8C95E0824F43549A7D55970F /* MSEntityContainerCalendarGroupFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarGroupFetcher.h; path = ./Fetchers/MSEntityContainerCalendarGroupFetcher.h; sourceTree = "<group>"; };
+		8DD6CBCFAC95DB2C09ED24D8 /* MSEntityContainerMeetingMessageType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerMeetingMessageType.h; path = ./Model/MSEntityContainerMeetingMessageType.h; sourceTree = "<group>"; };
+		914680944A54B9848A3D5C70 /* MSEntityContainerPatternedRecurrence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerPatternedRecurrence.m; path = ./Model/MSEntityContainerPatternedRecurrence.m; sourceTree = "<group>"; };
+		93327FB6BA22356A74E8199D /* MSEntityContainerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerMessage.h; path = ./Model/MSEntityContainerMessage.h; sourceTree = "<group>"; };
+		944BB32D60822BC844F18BFD /* MSEntityContainerMessageCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerMessageCollectionFetcher.h; path = ./Fetchers/MSEntityContainerMessageCollectionFetcher.h; sourceTree = "<group>"; };
+		949A6B81EB0B7371427A4D4F /* MSEntityContainerEventCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventCollectionOperations.m; path = ./Fetchers/MSEntityContainerEventCollectionOperations.m; sourceTree = "<group>"; };
+		96A4396D7FC7DD4F7EBD0408 /* MSEntityContainerContactCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactCollectionOperations.m; path = ./Fetchers/MSEntityContainerContactCollectionOperations.m; sourceTree = "<group>"; };
+		96FDD6E1F6F202BA569F09CB /* MSEntityContainerAttachmentCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerAttachmentCollectionOperations.h; path = ./Fetchers/MSEntityContainerAttachmentCollectionOperations.h; sourceTree = "<group>"; };
+		9803DC25E0083C44E4D42A72 /* MSEntityContainerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItem.m; path = ./Model/MSEntityContainerItem.m; sourceTree = "<group>"; };
+		99CD49D8A31CCDF624ADF82F /* MSEntityContainerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerClient.h; path = ./Fetchers/MSEntityContainerClient.h; sourceTree = "<group>"; };
+		9AAACCF07BA6EA29FC652877 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9DFD56E68784E33F61B190C5 /* MSEntityContainerModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerModels.h; path = ./Model/MSEntityContainerModels.h; sourceTree = "<group>"; };
+		9E750490AF70858D1BA735FE /* MSEntityContainerFileAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFileAttachment.h; path = ./Model/MSEntityContainerFileAttachment.h; sourceTree = "<group>"; };
+		A2416BB73AC7B01C1DEC8010 /* MSEntityContainerContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContact.h; path = ./Model/MSEntityContainerContact.h; sourceTree = "<group>"; };
+		A51444DB86D9A43CC92F9F68 /* MSEntityContainerCalendarGroupFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarGroupFetcher.m; path = ./Fetchers/MSEntityContainerCalendarGroupFetcher.m; sourceTree = "<group>"; };
+		AA1669BCF4CC365371C6486D /* MSEntityContainerEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEvent.h; path = ./Model/MSEntityContainerEvent.h; sourceTree = "<group>"; };
+		AA9F0AC61A7ABADE814B4395 /* MSEntityContainerDirectoryObjectCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerDirectoryObjectCollectionOperations.h; path = ./Fetchers/MSEntityContainerDirectoryObjectCollectionOperations.h; sourceTree = "<group>"; };
+		AE57DD51F0EE18E6C63F3343 /* MSEntityContainerResponseStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerResponseStatus.m; path = ./Model/MSEntityContainerResponseStatus.m; sourceTree = "<group>"; };
+		AE5BF4A02973E9604044B193 /* MSEntityContainerItemAttachmentCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemAttachmentCollectionOperations.m; path = ./Fetchers/MSEntityContainerItemAttachmentCollectionOperations.m; sourceTree = "<group>"; };
+		AE8FBF8A51F59598F0354DE7 /* MSEntityContainerCalendarCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarCollectionFetcher.m; path = ./Fetchers/MSEntityContainerCalendarCollectionFetcher.m; sourceTree = "<group>"; };
+		AF87D52C69D164662BB26151 /* MSEntityContainerMessageCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerMessageCollectionOperations.h; path = ./Fetchers/MSEntityContainerMessageCollectionOperations.h; sourceTree = "<group>"; };
+		AFB210ACEE5B8C0DA6FD1CA0 /* MSEntityContainerEntityCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEntityCollectionFetcher.h; path = ./Fetchers/MSEntityContainerEntityCollectionFetcher.h; sourceTree = "<group>"; };
+		B0E034B713EFE41AD1916DCF /* MSEntityContainerLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerLocation.m; path = ./Model/MSEntityContainerLocation.m; sourceTree = "<group>"; };
+		B1A127004EA223C33A1CB89F /* MSEntityContainerAttachmentCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerAttachmentCollectionFetcher.h; path = ./Fetchers/MSEntityContainerAttachmentCollectionFetcher.h; sourceTree = "<group>"; };
+		B2B853C63731177698A2C8F7 /* MSEntityContainerCalendarFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarFetcher.h; path = ./Fetchers/MSEntityContainerCalendarFetcher.h; sourceTree = "<group>"; };
+		B6EDCFA39BF2726956BC47F0 /* MSEntityContainerResponseType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerResponseType.h; path = ./Model/MSEntityContainerResponseType.h; sourceTree = "<group>"; };
+		BA2CD7BF6B0402C83985313E /* MSEntityContainerEventMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventMessage.h; path = ./Model/MSEntityContainerEventMessage.h; sourceTree = "<group>"; };
+		BA6BE2B6B0A3E74D6C8396C7 /* MSEntityContainerImportance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerImportance.h; path = ./Model/MSEntityContainerImportance.h; sourceTree = "<group>"; };
+		BBB534F296F13F494D5C25FE /* MSEntityContainerItemFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemFetcher.h; path = ./Fetchers/MSEntityContainerItemFetcher.h; sourceTree = "<group>"; };
+		BC5923C149588CB32F6646E4 /* MSEntityContainerCalendarGroupCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarGroupCollectionOperations.m; path = ./Fetchers/MSEntityContainerCalendarGroupCollectionOperations.m; sourceTree = "<group>"; };
+		BD2425A8C2C73E197CD7A5D1 /* MSEntityContainerFileAttachmentFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFileAttachmentFetcher.h; path = ./Fetchers/MSEntityContainerFileAttachmentFetcher.h; sourceTree = "<group>"; };
+		BE8C555AF0C29A15C3D37489 /* MSEntityContainerEntityFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEntityFetcher.h; path = ./Fetchers/MSEntityContainerEntityFetcher.h; sourceTree = "<group>"; };
+		C263420CCD548444BA91943E /* MSEntityContainerContactCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactCollectionOperations.h; path = ./Fetchers/MSEntityContainerContactCollectionOperations.h; sourceTree = "<group>"; };
+		C554A75A096D7F4ABBA727D7 /* MSEntityContainerContactFolderCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactFolderCollectionFetcher.m; path = ./Fetchers/MSEntityContainerContactFolderCollectionFetcher.m; sourceTree = "<group>"; };
+		C5773052E92EF5F4750393AF /* MSEntityContainerEntityOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEntityOperations.m; path = ./Fetchers/MSEntityContainerEntityOperations.m; sourceTree = "<group>"; };
+		C705278743E5DC69B9F61E6D /* MSEntityContainerEntityCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEntityCollectionOperations.m; path = ./Fetchers/MSEntityContainerEntityCollectionOperations.m; sourceTree = "<group>"; };
+		CA300370A50E970E459F50EF /* MSEntityContainerFolderOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFolderOperations.m; path = ./Fetchers/MSEntityContainerFolderOperations.m; sourceTree = "<group>"; };
+		CA926C217ADC7627234160F8 /* MSEntityContainerContactFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerContactFetcher.m; path = ./Fetchers/MSEntityContainerContactFetcher.m; sourceTree = "<group>"; };
+		CB94564F1EB2AC30E988D263 /* MSEntityContainerFolderCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFolderCollectionFetcher.h; path = ./Fetchers/MSEntityContainerFolderCollectionFetcher.h; sourceTree = "<group>"; };
+		CBFE75C94A71655FBBF7E311 /* MSEntityContainerItemAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemAttachment.m; path = ./Model/MSEntityContainerItemAttachment.m; sourceTree = "<group>"; };
+		CCE7C7F7C35720234264FA83 /* MSEntityContainerEntityCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEntityCollectionFetcher.m; path = ./Fetchers/MSEntityContainerEntityCollectionFetcher.m; sourceTree = "<group>"; };
+		CEC3CD2C09CF8C1A4F929448 /* MSEntityContainerContactOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactOperations.h; path = ./Fetchers/MSEntityContainerContactOperations.h; sourceTree = "<group>"; };
+		D0DD7AD55BA0289503530C0B /* MSEntityContainerUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerUser.h; path = ./Model/MSEntityContainerUser.h; sourceTree = "<group>"; };
+		D4D55C45ECB7933AFD251A9E /* MSEntityContainerFileAttachmentFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFileAttachmentFetcher.m; path = ./Fetchers/MSEntityContainerFileAttachmentFetcher.m; sourceTree = "<group>"; };
+		D4F9EC9D50A7BCB15C2212F8 /* MSEntityContainerPhysicalAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerPhysicalAddress.h; path = ./Model/MSEntityContainerPhysicalAddress.h; sourceTree = "<group>"; };
+		D5DC7DB5EA02E0995514DCC9 /* MSEntityContainerDirectoryObjectFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerDirectoryObjectFetcher.h; path = ./Fetchers/MSEntityContainerDirectoryObjectFetcher.h; sourceTree = "<group>"; };
+		D69FCDCF8E17799D63E43771 /* MSEntityContainerCalendarGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarGroup.m; path = ./Model/MSEntityContainerCalendarGroup.m; sourceTree = "<group>"; };
+		D78647DF0E510461AD86793E /* MSEntityContainerFolderOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFolderOperations.h; path = ./Fetchers/MSEntityContainerFolderOperations.h; sourceTree = "<group>"; };
+		D7D8E94A442D23A29A31BB01 /* MSEntityContainerUserCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerUserCollectionOperations.h; path = ./Fetchers/MSEntityContainerUserCollectionOperations.h; sourceTree = "<group>"; };
+		D841E475737F293A00F88F0F /* MSEntityContainerFetchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFetchers.h; path = ./Fetchers/MSEntityContainerFetchers.h; sourceTree = "<group>"; };
+		D9BE536E386802EEAB95FC3E /* MSEntityContainerDirectoryObjectCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerDirectoryObjectCollectionOperations.m; path = ./Fetchers/MSEntityContainerDirectoryObjectCollectionOperations.m; sourceTree = "<group>"; };
+		DAC99BA3ACC1E1BD4F0EB76B /* MSEntityContainerEventCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventCollectionFetcher.m; path = ./Fetchers/MSEntityContainerEventCollectionFetcher.m; sourceTree = "<group>"; };
+		DC110C1DE2408A5A5406DB77 /* MSEntityContainerEventOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventOperations.h; path = ./Fetchers/MSEntityContainerEventOperations.h; sourceTree = "<group>"; };
+		DC7337C22752AEF694D5D5C4 /* MSEntityContainerAttachmentOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerAttachmentOperations.m; path = ./Fetchers/MSEntityContainerAttachmentOperations.m; sourceTree = "<group>"; };
+		DE5AD94BF8B6E7CEE5E3625A /* MSEntityContainerUserOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerUserOperations.m; path = ./Fetchers/MSEntityContainerUserOperations.m; sourceTree = "<group>"; };
+		DF68E2E934A7941AEEA32639 /* MSEntityContainerCalendarCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarCollectionOperations.m; path = ./Fetchers/MSEntityContainerCalendarCollectionOperations.m; sourceTree = "<group>"; };
+		E16599B5F6ADC390DBDB8AE3 /* MSEntityContainerEntityCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEntityCollectionOperations.h; path = ./Fetchers/MSEntityContainerEntityCollectionOperations.h; sourceTree = "<group>"; };
+		E1E3D53D2FE2AB8420559D7C /* MSEntityContainerDirectoryObjectOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerDirectoryObjectOperations.m; path = ./Fetchers/MSEntityContainerDirectoryObjectOperations.m; sourceTree = "<group>"; };
+		E351AC91FB811E213FC5D331 /* MSEntityContainerUserFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerUserFetcher.m; path = ./Fetchers/MSEntityContainerUserFetcher.m; sourceTree = "<group>"; };
+		E3F48F6FF3EC5DB3266A9B3F /* MSEntityContainerMessageOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerMessageOperations.h; path = ./Fetchers/MSEntityContainerMessageOperations.h; sourceTree = "<group>"; };
+		E4840B0FB56363436D26B1FE /* MSEntityContainerAttachmentFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerAttachmentFetcher.m; path = ./Fetchers/MSEntityContainerAttachmentFetcher.m; sourceTree = "<group>"; };
+		E62F24E6FA4DFB20E04DBC13 /* MSEntityContainerEventMessageFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventMessageFetcher.h; path = ./Fetchers/MSEntityContainerEventMessageFetcher.h; sourceTree = "<group>"; };
+		E7E6C36638A27EE0FC58042E /* MSEntityContainerRecipient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerRecipient.h; path = ./Model/MSEntityContainerRecipient.h; sourceTree = "<group>"; };
+		E93622B6CAA65A960CDD7466 /* MSEntityContainerMessageFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerMessageFetcher.m; path = ./Fetchers/MSEntityContainerMessageFetcher.m; sourceTree = "<group>"; };
+		E9600140B56C72C6AD6136A8 /* MSEntityContainerItemAttachmentCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemAttachmentCollectionFetcher.m; path = ./Fetchers/MSEntityContainerItemAttachmentCollectionFetcher.m; sourceTree = "<group>"; };
+		E9797DAE47EC3827765CE154 /* MSEntityContainerCalendarGroupCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendarGroupCollectionFetcher.h; path = ./Fetchers/MSEntityContainerCalendarGroupCollectionFetcher.h; sourceTree = "<group>"; };
+		EFD4CB01A9A573E1685BF878 /* MSEntityContainerEntityFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEntityFetcher.m; path = ./Fetchers/MSEntityContainerEntityFetcher.m; sourceTree = "<group>"; };
+		F375D5897A611F62791295A7 /* MSEntityContainerFolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerFolder.m; path = ./Model/MSEntityContainerFolder.m; sourceTree = "<group>"; };
+		F42D6AD1D65145631BF409D1 /* MSEntityContainerItemAttachmentCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerItemAttachmentCollectionFetcher.h; path = ./Fetchers/MSEntityContainerItemAttachmentCollectionFetcher.h; sourceTree = "<group>"; };
+		F900F9AA10BC2A249E036D28 /* MSEntityContainerCalendarFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerCalendarFetcher.m; path = ./Fetchers/MSEntityContainerCalendarFetcher.m; sourceTree = "<group>"; };
+		F935D5DFD6177B1CBBFF43B0 /* MSEntityContainerMessageCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerMessageCollectionFetcher.m; path = ./Fetchers/MSEntityContainerMessageCollectionFetcher.m; sourceTree = "<group>"; };
+		FB84F115EF175177715C0078 /* MSEntityContainerEventCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerEventCollectionFetcher.h; path = ./Fetchers/MSEntityContainerEventCollectionFetcher.h; sourceTree = "<group>"; };
+		FD3FF7489D738FB60B182D6F /* MSEntityContainerEventMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerEventMessage.m; path = ./Model/MSEntityContainerEventMessage.m; sourceTree = "<group>"; };
+		FDCE78DE086424E545F5AED4 /* MSEntityContainerItemCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerItemCollectionOperations.m; path = ./Fetchers/MSEntityContainerItemCollectionOperations.m; sourceTree = "<group>"; };
+		FF5A3A5FC59C67D5687702FF /* MSEntityContainerCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerCalendar.h; path = ./Model/MSEntityContainerCalendar.h; sourceTree = "<group>"; };
+		FFC1DD9DEC880C062AAC21D4 /* MSEntityContainerContactFolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerContactFolder.h; path = ./Model/MSEntityContainerContactFolder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E92468AF214E623C971031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E119364E645BB4B470E2EB62 /* Foundation.framework in Frameworks */,
+				80CA49786F6CDDCB881CB7EC /* libPods-outlook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20DFCCAFA67F70D6F3967DA3 /* Fetchers */ = {
+			isa = PBXGroup;
+			children = (
+				B1A127004EA223C33A1CB89F /* MSEntityContainerAttachmentCollectionFetcher.h */,
+				4C430832521F4B3A5A6AA2DF /* MSEntityContainerAttachmentCollectionFetcher.m */,
+				96FDD6E1F6F202BA569F09CB /* MSEntityContainerAttachmentCollectionOperations.h */,
+				692E4C99EF3A01823820C5A7 /* MSEntityContainerAttachmentCollectionOperations.m */,
+				2890A47FBB85DA5CB3DC4CDB /* MSEntityContainerAttachmentFetcher.h */,
+				E4840B0FB56363436D26B1FE /* MSEntityContainerAttachmentFetcher.m */,
+				25386F0AA776DC687C8C97E2 /* MSEntityContainerAttachmentOperations.h */,
+				DC7337C22752AEF694D5D5C4 /* MSEntityContainerAttachmentOperations.m */,
+				1C24FB15DD5AE6E7E280DD1C /* MSEntityContainerCalendarCollectionFetcher.h */,
+				AE8FBF8A51F59598F0354DE7 /* MSEntityContainerCalendarCollectionFetcher.m */,
+				6504697A2DDE4D41DE201F86 /* MSEntityContainerCalendarCollectionOperations.h */,
+				DF68E2E934A7941AEEA32639 /* MSEntityContainerCalendarCollectionOperations.m */,
+				B2B853C63731177698A2C8F7 /* MSEntityContainerCalendarFetcher.h */,
+				F900F9AA10BC2A249E036D28 /* MSEntityContainerCalendarFetcher.m */,
+				E9797DAE47EC3827765CE154 /* MSEntityContainerCalendarGroupCollectionFetcher.h */,
+				392CC76678163E05C218F9BE /* MSEntityContainerCalendarGroupCollectionFetcher.m */,
+				758A718E0C6BADB134CE6C51 /* MSEntityContainerCalendarGroupCollectionOperations.h */,
+				BC5923C149588CB32F6646E4 /* MSEntityContainerCalendarGroupCollectionOperations.m */,
+				8C95E0824F43549A7D55970F /* MSEntityContainerCalendarGroupFetcher.h */,
+				A51444DB86D9A43CC92F9F68 /* MSEntityContainerCalendarGroupFetcher.m */,
+				65B6B0FA688DDCC3EC6BF07E /* MSEntityContainerCalendarGroupOperations.h */,
+				554193B49FB373FAB2FA56C0 /* MSEntityContainerCalendarGroupOperations.m */,
+				6101E8A9A3E1B46796EDF2C6 /* MSEntityContainerCalendarOperations.h */,
+				586612799F5F35604C59AD70 /* MSEntityContainerCalendarOperations.m */,
+				99CD49D8A31CCDF624ADF82F /* MSEntityContainerClient.h */,
+				095BE2D1418CC86D911D70AD /* MSEntityContainerClient.m */,
+				4EAB12B929CB58810754773F /* MSEntityContainerContactCollectionFetcher.h */,
+				35995262BA310F975EDED50F /* MSEntityContainerContactCollectionFetcher.m */,
+				C263420CCD548444BA91943E /* MSEntityContainerContactCollectionOperations.h */,
+				96A4396D7FC7DD4F7EBD0408 /* MSEntityContainerContactCollectionOperations.m */,
+				0F89332E1D3E402C3A99C177 /* MSEntityContainerContactFetcher.h */,
+				CA926C217ADC7627234160F8 /* MSEntityContainerContactFetcher.m */,
+				0EE5CDEF76677D49589A174B /* MSEntityContainerContactFolderCollectionFetcher.h */,
+				C554A75A096D7F4ABBA727D7 /* MSEntityContainerContactFolderCollectionFetcher.m */,
+				2505A48585AB42F022E0A16A /* MSEntityContainerContactFolderCollectionOperations.h */,
+				5BEF0200CD3BE5587C1242FD /* MSEntityContainerContactFolderCollectionOperations.m */,
+				0B0D93423A0C649880FFB2A3 /* MSEntityContainerContactFolderFetcher.h */,
+				37959105F7EE8D9E1D8FAB73 /* MSEntityContainerContactFolderFetcher.m */,
+				3862277730A8F0889F0C630D /* MSEntityContainerContactFolderOperations.h */,
+				22F43A57EE809241076F39EE /* MSEntityContainerContactFolderOperations.m */,
+				CEC3CD2C09CF8C1A4F929448 /* MSEntityContainerContactOperations.h */,
+				27F3DDFAD80698CEE6A5284F /* MSEntityContainerContactOperations.m */,
+				328F253BDED3F9262F76209C /* MSEntityContainerDirectoryObjectCollectionFetcher.h */,
+				1E1C0ACBC53E10C4C6A6601E /* MSEntityContainerDirectoryObjectCollectionFetcher.m */,
+				AA9F0AC61A7ABADE814B4395 /* MSEntityContainerDirectoryObjectCollectionOperations.h */,
+				D9BE536E386802EEAB95FC3E /* MSEntityContainerDirectoryObjectCollectionOperations.m */,
+				D5DC7DB5EA02E0995514DCC9 /* MSEntityContainerDirectoryObjectFetcher.h */,
+				698D7BEE92114485C1D1CEA4 /* MSEntityContainerDirectoryObjectFetcher.m */,
+				4B67DA8C0591052E5D88AE3B /* MSEntityContainerDirectoryObjectOperations.h */,
+				E1E3D53D2FE2AB8420559D7C /* MSEntityContainerDirectoryObjectOperations.m */,
+				AFB210ACEE5B8C0DA6FD1CA0 /* MSEntityContainerEntityCollectionFetcher.h */,
+				CCE7C7F7C35720234264FA83 /* MSEntityContainerEntityCollectionFetcher.m */,
+				E16599B5F6ADC390DBDB8AE3 /* MSEntityContainerEntityCollectionOperations.h */,
+				C705278743E5DC69B9F61E6D /* MSEntityContainerEntityCollectionOperations.m */,
+				BE8C555AF0C29A15C3D37489 /* MSEntityContainerEntityFetcher.h */,
+				EFD4CB01A9A573E1685BF878 /* MSEntityContainerEntityFetcher.m */,
+				22D71B7BD475DF9D58B3478C /* MSEntityContainerEntityOperations.h */,
+				C5773052E92EF5F4750393AF /* MSEntityContainerEntityOperations.m */,
+				FB84F115EF175177715C0078 /* MSEntityContainerEventCollectionFetcher.h */,
+				DAC99BA3ACC1E1BD4F0EB76B /* MSEntityContainerEventCollectionFetcher.m */,
+				680514A1624932A73D06392A /* MSEntityContainerEventCollectionOperations.h */,
+				949A6B81EB0B7371427A4D4F /* MSEntityContainerEventCollectionOperations.m */,
+				2CF2C1B99003CCCC9BA4508B /* MSEntityContainerEventFetcher.h */,
+				869A616D5DF6A1AA74D6486A /* MSEntityContainerEventFetcher.m */,
+				1F92FC86B4DE937AC0C02255 /* MSEntityContainerEventMessageCollectionFetcher.h */,
+				3390BE52AD06C47A757243B7 /* MSEntityContainerEventMessageCollectionFetcher.m */,
+				0115784CFBD04DAD1782C424 /* MSEntityContainerEventMessageCollectionOperations.h */,
+				1B957F38BEEEBB338262C8E6 /* MSEntityContainerEventMessageCollectionOperations.m */,
+				E62F24E6FA4DFB20E04DBC13 /* MSEntityContainerEventMessageFetcher.h */,
+				3AA24EA81FBEDD2FC25FA479 /* MSEntityContainerEventMessageFetcher.m */,
+				48E0B3F0ED3151547F8D3202 /* MSEntityContainerEventMessageOperations.h */,
+				589F2EC959174B86CA0403E9 /* MSEntityContainerEventMessageOperations.m */,
+				DC110C1DE2408A5A5406DB77 /* MSEntityContainerEventOperations.h */,
+				61B13787EBC32967A8146ACC /* MSEntityContainerEventOperations.m */,
+				D841E475737F293A00F88F0F /* MSEntityContainerFetchers.h */,
+				8B1888B6BB451730CDD8BFB1 /* MSEntityContainerFileAttachmentCollectionFetcher.h */,
+				0B50F8EFE5FFCEF32E751828 /* MSEntityContainerFileAttachmentCollectionFetcher.m */,
+				3F9A97AF3AA6DE7CB58D6F6D /* MSEntityContainerFileAttachmentCollectionOperations.h */,
+				6EF22E9A5D24E56F416E1BE0 /* MSEntityContainerFileAttachmentCollectionOperations.m */,
+				BD2425A8C2C73E197CD7A5D1 /* MSEntityContainerFileAttachmentFetcher.h */,
+				D4D55C45ECB7933AFD251A9E /* MSEntityContainerFileAttachmentFetcher.m */,
+				82572F1E254CC0F83443C6C5 /* MSEntityContainerFileAttachmentOperations.h */,
+				3798E9DF0DB4620CD7FCB248 /* MSEntityContainerFileAttachmentOperations.m */,
+				CB94564F1EB2AC30E988D263 /* MSEntityContainerFolderCollectionFetcher.h */,
+				432D0527055C09697061324A /* MSEntityContainerFolderCollectionFetcher.m */,
+				18F5A4F09561BB0A99FB84FC /* MSEntityContainerFolderCollectionOperations.h */,
+				1807287AADAF66C2D880BA6F /* MSEntityContainerFolderCollectionOperations.m */,
+				7DA7FC3556042B2FE4A0A176 /* MSEntityContainerFolderFetcher.h */,
+				83587D901DCEBC49F5BD4E0C /* MSEntityContainerFolderFetcher.m */,
+				D78647DF0E510461AD86793E /* MSEntityContainerFolderOperations.h */,
+				CA300370A50E970E459F50EF /* MSEntityContainerFolderOperations.m */,
+				F42D6AD1D65145631BF409D1 /* MSEntityContainerItemAttachmentCollectionFetcher.h */,
+				E9600140B56C72C6AD6136A8 /* MSEntityContainerItemAttachmentCollectionFetcher.m */,
+				2ED4E0E435DE8025625B6DB8 /* MSEntityContainerItemAttachmentCollectionOperations.h */,
+				AE5BF4A02973E9604044B193 /* MSEntityContainerItemAttachmentCollectionOperations.m */,
+				8C58227690B0CFC838D4525F /* MSEntityContainerItemAttachmentFetcher.h */,
+				1098FD52F31B1505E0F3C4FC /* MSEntityContainerItemAttachmentFetcher.m */,
+				502BCF120D1BCBE20DB2A1DA /* MSEntityContainerItemAttachmentOperations.h */,
+				7545243B28FBFC37CEBCD0DC /* MSEntityContainerItemAttachmentOperations.m */,
+				2A4E724525B547E8DBC84295 /* MSEntityContainerItemCollectionFetcher.h */,
+				6425B0DC0B8C43413E4A5CD7 /* MSEntityContainerItemCollectionFetcher.m */,
+				00E41EDC305F6500D09D06B8 /* MSEntityContainerItemCollectionOperations.h */,
+				FDCE78DE086424E545F5AED4 /* MSEntityContainerItemCollectionOperations.m */,
+				BBB534F296F13F494D5C25FE /* MSEntityContainerItemFetcher.h */,
+				2CC7B320B87B4D117700A02C /* MSEntityContainerItemFetcher.m */,
+				6466E934DDA65A0C118A3165 /* MSEntityContainerItemOperations.h */,
+				38D5FEA088191A9EC6EE89DD /* MSEntityContainerItemOperations.m */,
+				944BB32D60822BC844F18BFD /* MSEntityContainerMessageCollectionFetcher.h */,
+				F935D5DFD6177B1CBBFF43B0 /* MSEntityContainerMessageCollectionFetcher.m */,
+				AF87D52C69D164662BB26151 /* MSEntityContainerMessageCollectionOperations.h */,
+				76D35DEA2488AA1E4774327B /* MSEntityContainerMessageCollectionOperations.m */,
+				3474BD610A969D261B974503 /* MSEntityContainerMessageFetcher.h */,
+				E93622B6CAA65A960CDD7466 /* MSEntityContainerMessageFetcher.m */,
+				E3F48F6FF3EC5DB3266A9B3F /* MSEntityContainerMessageOperations.h */,
+				19A7C719C64A5F60C8DFB388 /* MSEntityContainerMessageOperations.m */,
+				57D96D18037430DDFD3D7C58 /* MSEntityContainerUserCollectionFetcher.h */,
+				44EC8C94FC81CDDD6DB13CB0 /* MSEntityContainerUserCollectionFetcher.m */,
+				D7D8E94A442D23A29A31BB01 /* MSEntityContainerUserCollectionOperations.h */,
+				3524D5F0324D0BFACEACC86B /* MSEntityContainerUserCollectionOperations.m */,
+				82ECFACAF5A45173BA6AAEB2 /* MSEntityContainerUserFetcher.h */,
+				E351AC91FB811E213FC5D331 /* MSEntityContainerUserFetcher.m */,
+				87D6BC81D951FF88D965E551 /* MSEntityContainerUserOperations.h */,
+				DE5AD94BF8B6E7CEE5E3625A /* MSEntityContainerUserOperations.m */,
+			);
+			name = Fetchers;
+			sourceTree = "<group>";
+		};
+		35F578A3889D5266E18B009E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9AAACCF07BA6EA29FC652877 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		527008E830D27C940A054550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA3BCF30974DAD1968117E0 /* liboutlook.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6082169A32A1A856A7824415 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27259CB71AAF4BFF2E3F7F06 /* Pods-outlook.release.xcconfig */,
+				8B8A1A3B380C7479BDF2E276 /* Pods-outlook.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF5A7725FB4E1475E7D442BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35F578A3889D5266E18B009E /* iOS */,
+				19BCCBFFB8DD0BF720359FE6 /* libPods-outlook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F91EC96CC688AED227D57EC5 = {
+			isa = PBXGroup;
+			children = (
+				527008E830D27C940A054550 /* Products */,
+				CF5A7725FB4E1475E7D442BC /* Frameworks */,
+				20DFCCAFA67F70D6F3967DA3 /* Fetchers */,
+				FCE7A49D9A56BC40A7EF12C7 /* Model */,
+				6082169A32A1A856A7824415 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE7A49D9A56BC40A7EF12C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12F745549391626738DD7EA4 /* MSEntityContainerAttachment.h */,
+				898F15B934A02C6999B5D741 /* MSEntityContainerAttachment.m */,
+				55EE7E34FE23E6C45781EECE /* MSEntityContainerAttendee.h */,
+				2A5B45FF59B15DFDAD23257B /* MSEntityContainerAttendee.m */,
+				6B5A07FDB9800F10A3C01E38 /* MSEntityContainerAttendeeType.h */,
+				787F604F3B5BAF5E33595C36 /* MSEntityContainerBodyType.h */,
+				FF5A3A5FC59C67D5687702FF /* MSEntityContainerCalendar.h */,
+				7DEF18AE15A5A7A38C567AF0 /* MSEntityContainerCalendar.m */,
+				242E90EB91EF31B13A291149 /* MSEntityContainerCalendarColor.h */,
+				0F552DCBE9EDF1E5397BD9BC /* MSEntityContainerCalendarGroup.h */,
+				D69FCDCF8E17799D63E43771 /* MSEntityContainerCalendarGroup.m */,
+				A2416BB73AC7B01C1DEC8010 /* MSEntityContainerContact.h */,
+				3BB91A29AE03FC4AD8293CFD /* MSEntityContainerContact.m */,
+				FFC1DD9DEC880C062AAC21D4 /* MSEntityContainerContactFolder.h */,
+				6111A68284856D1B07BBD73C /* MSEntityContainerContactFolder.m */,
+				1916C28291EB3786CC39F5F8 /* MSEntityContainerDayOfWeek.h */,
+				1B9020B33D4E46BA477AC7BF /* MSEntityContainerDirectoryObject.h */,
+				0048E4AF08BE4C7196375B0F /* MSEntityContainerDirectoryObject.m */,
+				10C7E156DD4F77088E964F26 /* MSEntityContainerEmailAddress.h */,
+				4E32772E246E288BAD4B1808 /* MSEntityContainerEmailAddress.m */,
+				087620F3BE2282C369088221 /* MSEntityContainerEntity.h */,
+				71229AAA649E47B73B60A8A6 /* MSEntityContainerEntity.m */,
+				AA1669BCF4CC365371C6486D /* MSEntityContainerEvent.h */,
+				7604E6BB4D344A163CDAA210 /* MSEntityContainerEvent.m */,
+				BA2CD7BF6B0402C83985313E /* MSEntityContainerEventMessage.h */,
+				FD3FF7489D738FB60B182D6F /* MSEntityContainerEventMessage.m */,
+				0EC633A8C77AB98C28083803 /* MSEntityContainerEventType.h */,
+				9E750490AF70858D1BA735FE /* MSEntityContainerFileAttachment.h */,
+				0784EA8008A51E52757AE827 /* MSEntityContainerFileAttachment.m */,
+				64BD894051A4192B4148538C /* MSEntityContainerFolder.h */,
+				F375D5897A611F62791295A7 /* MSEntityContainerFolder.m */,
+				1ADF03853A2E680F5E9961BC /* MSEntityContainerFreeBusyStatus.h */,
+				1C488C7523B055929BA4436A /* MSEntityContainerGeoCoordinates.h */,
+				1E980FD106D8E138F9854263 /* MSEntityContainerGeoCoordinates.m */,
+				BA6BE2B6B0A3E74D6C8396C7 /* MSEntityContainerImportance.h */,
+				462A13A188E7CEC2AECF5182 /* MSEntityContainerItem.h */,
+				9803DC25E0083C44E4D42A72 /* MSEntityContainerItem.m */,
+				5FAF302AEE7E6B5E6CF2A12C /* MSEntityContainerItemAttachment.h */,
+				CBFE75C94A71655FBBF7E311 /* MSEntityContainerItemAttachment.m */,
+				40461081461318FCDF329C35 /* MSEntityContainerItemBody.h */,
+				83A3CE8F731024E40355EECD /* MSEntityContainerItemBody.m */,
+				4229DC74BD80FF7F2C2FEFE0 /* MSEntityContainerLocation.h */,
+				B0E034B713EFE41AD1916DCF /* MSEntityContainerLocation.m */,
+				8DD6CBCFAC95DB2C09ED24D8 /* MSEntityContainerMeetingMessageType.h */,
+				93327FB6BA22356A74E8199D /* MSEntityContainerMessage.h */,
+				05C8BB67496F74B414E27E84 /* MSEntityContainerMessage.m */,
+				9DFD56E68784E33F61B190C5 /* MSEntityContainerModels.h */,
+				779E36A09BD1ABB875242AFE /* MSEntityContainerPatternedRecurrence.h */,
+				914680944A54B9848A3D5C70 /* MSEntityContainerPatternedRecurrence.m */,
+				D4F9EC9D50A7BCB15C2212F8 /* MSEntityContainerPhysicalAddress.h */,
+				41EC1E3EC67C4864018915A4 /* MSEntityContainerPhysicalAddress.m */,
+				E7E6C36638A27EE0FC58042E /* MSEntityContainerRecipient.h */,
+				622687C6141644376ADBDA67 /* MSEntityContainerRecipient.m */,
+				0317DC6AA0DFD517FC41B7D7 /* MSEntityContainerRecurrencePattern.h */,
+				70711DD97CA7452E7459521A /* MSEntityContainerRecurrencePattern.m */,
+				03EEBA0CB3F415AD751C6D4A /* MSEntityContainerRecurrencePatternType.h */,
+				2B066DF36C81AD49F717A40C /* MSEntityContainerRecurrenceRange.h */,
+				26371961A65F5639833BF20B /* MSEntityContainerRecurrenceRange.m */,
+				8161ADFC73566B205659DC47 /* MSEntityContainerRecurrenceRangeType.h */,
+				63CD5EBA6FBD6EFFF4DABC49 /* MSEntityContainerResponseStatus.h */,
+				AE57DD51F0EE18E6C63F3343 /* MSEntityContainerResponseStatus.m */,
+				B6EDCFA39BF2726956BC47F0 /* MSEntityContainerResponseType.h */,
+				D0DD7AD55BA0289503530C0B /* MSEntityContainerUser.h */,
+				288BCA3BD1A895E987690E55 /* MSEntityContainerUser.m */,
+				536E945B08473074353A2AC8 /* MSEntityContainerWeekIndex.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3484D41AE0CD109C71055F26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45DC0BE9F89C5151D2BB54F /* MSEntityContainerAttachmentCollectionFetcher.h in Headers */,
+				926DD9EB8B163F0A4B6F4AC9 /* MSEntityContainerAttachmentCollectionOperations.h in Headers */,
+				002DA8AEE21E2817531525F8 /* MSEntityContainerAttachmentFetcher.h in Headers */,
+				61513F776DE2377590C1D3EF /* MSEntityContainerAttachmentOperations.h in Headers */,
+				9840495CF068A50DD8BFFD37 /* MSEntityContainerCalendarCollectionFetcher.h in Headers */,
+				A4E78E10B1BD76498DD932B5 /* MSEntityContainerCalendarCollectionOperations.h in Headers */,
+				FEC4B14B4282034E9336198C /* MSEntityContainerCalendarFetcher.h in Headers */,
+				BCC61FC0046CD11AA34C5B48 /* MSEntityContainerCalendarGroupCollectionFetcher.h in Headers */,
+				E83D7BE8BE3239BA5A86DDCB /* MSEntityContainerCalendarGroupCollectionOperations.h in Headers */,
+				D195C8934B5B02C8A428D421 /* MSEntityContainerCalendarGroupFetcher.h in Headers */,
+				1CC1D06BEC59CD0ADF8A69C2 /* MSEntityContainerCalendarGroupOperations.h in Headers */,
+				38591AC63D10C60B18921649 /* MSEntityContainerCalendarOperations.h in Headers */,
+				5277978ED7823514032E0C8A /* MSEntityContainerClient.h in Headers */,
+				8EEF1A6259A00648BD64865B /* MSEntityContainerContactCollectionFetcher.h in Headers */,
+				15DEE85C1D3865DB1AE1EE30 /* MSEntityContainerContactCollectionOperations.h in Headers */,
+				28FFC661523306FD6B0C1168 /* MSEntityContainerContactFetcher.h in Headers */,
+				C72EFCE6F3CC8694496CA842 /* MSEntityContainerContactFolderCollectionFetcher.h in Headers */,
+				D608083556E872E8F7999B4D /* MSEntityContainerContactFolderCollectionOperations.h in Headers */,
+				598C2EAA41EE377A59E0219A /* MSEntityContainerContactFolderFetcher.h in Headers */,
+				FEDA553C0F570D2273BEB354 /* MSEntityContainerContactFolderOperations.h in Headers */,
+				18E6D8D0F074BC0D5C354B5C /* MSEntityContainerContactOperations.h in Headers */,
+				70A48310758B86B939F75498 /* MSEntityContainerDirectoryObjectCollectionFetcher.h in Headers */,
+				4236DBC47E0D76330845032E /* MSEntityContainerDirectoryObjectCollectionOperations.h in Headers */,
+				7D518036D224E09EBFFD6CC8 /* MSEntityContainerDirectoryObjectFetcher.h in Headers */,
+				CFF2AAE23DB8BC337525D3D1 /* MSEntityContainerDirectoryObjectOperations.h in Headers */,
+				FA7D188294C4A42E619C5A7D /* MSEntityContainerEntityCollectionFetcher.h in Headers */,
+				104BB8E223C6F7381A967ACB /* MSEntityContainerEntityCollectionOperations.h in Headers */,
+				0856B6C884E00010CAC79B5F /* MSEntityContainerEntityFetcher.h in Headers */,
+				B55C2652DDAADA303AE0585C /* MSEntityContainerEntityOperations.h in Headers */,
+				ACB740D23D9D0A4AF5671896 /* MSEntityContainerEventCollectionFetcher.h in Headers */,
+				3BF453E23F8784637FAC2A92 /* MSEntityContainerEventCollectionOperations.h in Headers */,
+				03E2ED10CB2A50E69271094E /* MSEntityContainerEventFetcher.h in Headers */,
+				F365CFC0817BBF9563AD819F /* MSEntityContainerEventMessageCollectionFetcher.h in Headers */,
+				AF1B69F03A583B5267004BB8 /* MSEntityContainerEventMessageCollectionOperations.h in Headers */,
+				38B0FDCB85D9FA938DD52C44 /* MSEntityContainerEventMessageFetcher.h in Headers */,
+				DF326974060D14E038ECFA5A /* MSEntityContainerEventMessageOperations.h in Headers */,
+				8FD66F2CC4D2C3CB09193740 /* MSEntityContainerEventOperations.h in Headers */,
+				9AD05F9FC787AC813C12B84F /* MSEntityContainerFetchers.h in Headers */,
+				969751AC5A8A26B6E23C6872 /* MSEntityContainerFileAttachmentCollectionFetcher.h in Headers */,
+				C966B1D5790A3C9B38FDABFA /* MSEntityContainerFileAttachmentCollectionOperations.h in Headers */,
+				7E0B9E326212B7A3ED54F302 /* MSEntityContainerFileAttachmentFetcher.h in Headers */,
+				F46A60020ED8446EA0FD6412 /* MSEntityContainerFileAttachmentOperations.h in Headers */,
+				D67B9E0628327EED99D6A0C1 /* MSEntityContainerFolderCollectionFetcher.h in Headers */,
+				A2ED8463C5B932B5FC81353E /* MSEntityContainerFolderCollectionOperations.h in Headers */,
+				89B1D8BBE124E93B828681B3 /* MSEntityContainerFolderFetcher.h in Headers */,
+				B59ADD39ACF62A55A252EFCF /* MSEntityContainerFolderOperations.h in Headers */,
+				CA09FF11771CA115020CC213 /* MSEntityContainerItemAttachmentCollectionFetcher.h in Headers */,
+				D4E5AD8CC4EA14B3A5BCA08F /* MSEntityContainerItemAttachmentCollectionOperations.h in Headers */,
+				0CC587050A1DDFC88BF2F25D /* MSEntityContainerItemAttachmentFetcher.h in Headers */,
+				DFDF7EB560EED400AA3C943D /* MSEntityContainerItemAttachmentOperations.h in Headers */,
+				A3D00D423EFACCDB455B4B40 /* MSEntityContainerItemCollectionFetcher.h in Headers */,
+				EF5C3072DFFB56A4848DB3BA /* MSEntityContainerItemCollectionOperations.h in Headers */,
+				F7D5CE9D9C3AE3716A19050E /* MSEntityContainerItemFetcher.h in Headers */,
+				DB40621B7CFBF95A6E517314 /* MSEntityContainerItemOperations.h in Headers */,
+				9038E03AF46CF56DE7A844F0 /* MSEntityContainerMessageCollectionFetcher.h in Headers */,
+				239CE883CA37F486A91DC114 /* MSEntityContainerMessageCollectionOperations.h in Headers */,
+				F8E188B34DF4A5897909B34F /* MSEntityContainerMessageFetcher.h in Headers */,
+				247DAD582C239C58252E1A7C /* MSEntityContainerMessageOperations.h in Headers */,
+				F7098AB35C01C34AF027B245 /* MSEntityContainerUserCollectionFetcher.h in Headers */,
+				BC5ECBD2AE0D5C7308A22A52 /* MSEntityContainerUserCollectionOperations.h in Headers */,
+				C5750276B68CB4F7B204CC2A /* MSEntityContainerUserFetcher.h in Headers */,
+				8A6EDB57FBE16C44362A2912 /* MSEntityContainerUserOperations.h in Headers */,
+				21A5F347E07B9CB6F310A88A /* MSEntityContainerAttachment.h in Headers */,
+				75EC70F686295CBCD19A0C4E /* MSEntityContainerAttendee.h in Headers */,
+				4773B2EFBE777508EA32D47C /* MSEntityContainerAttendeeType.h in Headers */,
+				FF292835A8A40E2057EE238F /* MSEntityContainerBodyType.h in Headers */,
+				47E28DF6DEB159197D5097E6 /* MSEntityContainerCalendar.h in Headers */,
+				910AF98B4C6AAFC1E3B792D5 /* MSEntityContainerCalendarColor.h in Headers */,
+				1C4C80D7844278DD8ED8E885 /* MSEntityContainerCalendarGroup.h in Headers */,
+				8C7DBBE74E322B2B71A671BB /* MSEntityContainerContact.h in Headers */,
+				4BE8FC0B2F28BB1439B12E7F /* MSEntityContainerContactFolder.h in Headers */,
+				FF9216F9D293A6CA19AC8628 /* MSEntityContainerDayOfWeek.h in Headers */,
+				5A18490E6FB8AAB369D221AB /* MSEntityContainerDirectoryObject.h in Headers */,
+				E5B7A3E2EB37B6BAE5548498 /* MSEntityContainerEmailAddress.h in Headers */,
+				657D96C741B52CE53D3B7FA3 /* MSEntityContainerEntity.h in Headers */,
+				D923950611DACE4E08ADE344 /* MSEntityContainerEvent.h in Headers */,
+				F450E63130FF1B55B28E584B /* MSEntityContainerEventMessage.h in Headers */,
+				04515BBD48794AC1F7C21689 /* MSEntityContainerEventType.h in Headers */,
+				59568DDDC52E6E462C5CD90C /* MSEntityContainerFileAttachment.h in Headers */,
+				F49DBE43C68C18B2E35071B9 /* MSEntityContainerFolder.h in Headers */,
+				7921B2EC89CA2A3CBB6B89CB /* MSEntityContainerFreeBusyStatus.h in Headers */,
+				F4E9AFD9F7F5B241BC6F0A71 /* MSEntityContainerGeoCoordinates.h in Headers */,
+				3746C8CF2D015002CC1F9F0D /* MSEntityContainerImportance.h in Headers */,
+				F9A7BEDB75A15156AB380240 /* MSEntityContainerItem.h in Headers */,
+				BB16572C09CD3B519151FA4F /* MSEntityContainerItemAttachment.h in Headers */,
+				331EA8A020773A21D79415DC /* MSEntityContainerItemBody.h in Headers */,
+				C2B40051B4FEB89A1E2EC9DF /* MSEntityContainerLocation.h in Headers */,
+				5B4D5ABABF70EEAC17E86800 /* MSEntityContainerMeetingMessageType.h in Headers */,
+				047F93E5D51BEDF3F2428EC5 /* MSEntityContainerMessage.h in Headers */,
+				4E910F0F8AD6D5804875DE67 /* MSEntityContainerModels.h in Headers */,
+				8F1EF5352E401F03397EEEE7 /* MSEntityContainerPatternedRecurrence.h in Headers */,
+				23800AF0C3DF01163A281CEF /* MSEntityContainerPhysicalAddress.h in Headers */,
+				BD3C97273F833B78140CA918 /* MSEntityContainerRecipient.h in Headers */,
+				825FB713CEF185D7F6E9E5CA /* MSEntityContainerRecurrencePattern.h in Headers */,
+				E86D5A4AE91CB27900548769 /* MSEntityContainerRecurrencePatternType.h in Headers */,
+				A9EE748C6B4AC27EE27DA188 /* MSEntityContainerRecurrenceRange.h in Headers */,
+				3EC253D242B75205FAC6B551 /* MSEntityContainerRecurrenceRangeType.h in Headers */,
+				3F3BE84C120BA61DD0D9E3DF /* MSEntityContainerResponseStatus.h in Headers */,
+				A0170AA0AC26DF6C250147BE /* MSEntityContainerResponseType.h in Headers */,
+				5841C7DA051AEC8FED225322 /* MSEntityContainerUser.h in Headers */,
+				378EB17F4C41A91BA49D66F1 /* MSEntityContainerWeekIndex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4789D2B280BB0FBDE6363D46 /* outlook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2014E36B82C434A8FE71B719 /* Build configuration list for PBXNativeTarget "outlook" */;
+			buildPhases = (
+				DABA4DB69823EF3E21D85226 /* Check Pods Manifest.lock */,
+				BBCF01A6CA18FA72AC86672C /* Sources */,
+				35E92468AF214E623C971031 /* Frameworks */,
+				3484D41AE0CD109C71055F26 /* Headers */,
+				ECFAEEEC7471D726E3BC5A68 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = outlook;
+			productName = outlook;
+			productReference = 1CA3BCF30974DAD1968117E0 /* liboutlook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889E96890B54754B42019B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = D5D74AEACD502416BDDCC29D /* Build configuration list for PBXProject "outlook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F91EC96CC688AED227D57EC5;
+			productRefGroup = 527008E830D27C940A054550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4789D2B280BB0FBDE6363D46 /* outlook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DABA4DB69823EF3E21D85226 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFAEEEC7471D726E3BC5A68 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-outlook/Pods-outlook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBCF01A6CA18FA72AC86672C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EA573343C3CDD0BEA39C97 /* MSEntityContainerAttachmentCollectionFetcher.m in Sources */,
+				CCA8E925A8D78806ECE21E75 /* MSEntityContainerAttachmentCollectionOperations.m in Sources */,
+				7B8FBD139FF8EDAFA388B2C4 /* MSEntityContainerAttachmentFetcher.m in Sources */,
+				72A7E469EE07589B1DE865D3 /* MSEntityContainerAttachmentOperations.m in Sources */,
+				A6517A62ADE43BA39B1F0118 /* MSEntityContainerCalendarCollectionFetcher.m in Sources */,
+				2903378EB4DEF74EB0974B08 /* MSEntityContainerCalendarCollectionOperations.m in Sources */,
+				57719BF43FA85DA3CF50560E /* MSEntityContainerCalendarFetcher.m in Sources */,
+				B01A02C2F0CE45C1B272F5E2 /* MSEntityContainerCalendarGroupCollectionFetcher.m in Sources */,
+				F94BD9A6A69FA6537E84B408 /* MSEntityContainerCalendarGroupCollectionOperations.m in Sources */,
+				46E17917674C4C3EF3ECD22C /* MSEntityContainerCalendarGroupFetcher.m in Sources */,
+				72B07DE919C23F857DBA9025 /* MSEntityContainerCalendarGroupOperations.m in Sources */,
+				55C176DBFF680BBE3BD4C798 /* MSEntityContainerCalendarOperations.m in Sources */,
+				FB51892593F68DB6CB105493 /* MSEntityContainerClient.m in Sources */,
+				D75C5302CB5AA16580009A66 /* MSEntityContainerContactCollectionFetcher.m in Sources */,
+				213F061720EA19F4821B9D73 /* MSEntityContainerContactCollectionOperations.m in Sources */,
+				D4708FCD8A31A369A42DDBB9 /* MSEntityContainerContactFetcher.m in Sources */,
+				04D124A7A92595EE828A7ED5 /* MSEntityContainerContactFolderCollectionFetcher.m in Sources */,
+				5FA5EFA4873C3AC091BE80FF /* MSEntityContainerContactFolderCollectionOperations.m in Sources */,
+				77D1D7B9C7679E25A87D1F02 /* MSEntityContainerContactFolderFetcher.m in Sources */,
+				FAE1B2905FD6E20BBD88B69F /* MSEntityContainerContactFolderOperations.m in Sources */,
+				7146332F0439131BA47BB6E3 /* MSEntityContainerContactOperations.m in Sources */,
+				FADCE7FC2FED31DD3738BB44 /* MSEntityContainerDirectoryObjectCollectionFetcher.m in Sources */,
+				40C16C623B5DBC859302AE5B /* MSEntityContainerDirectoryObjectCollectionOperations.m in Sources */,
+				E484035FA00A3E1C22F40410 /* MSEntityContainerDirectoryObjectFetcher.m in Sources */,
+				75BEA4490AE85C257D776A7D /* MSEntityContainerDirectoryObjectOperations.m in Sources */,
+				C6D94009C9DF8E1D142391E2 /* MSEntityContainerEntityCollectionFetcher.m in Sources */,
+				98A3C01EC4E41B40FD5C1FAD /* MSEntityContainerEntityCollectionOperations.m in Sources */,
+				86E143F916D6DBF09E3E2B94 /* MSEntityContainerEntityFetcher.m in Sources */,
+				5F31BEDBF6816D361D62942A /* MSEntityContainerEntityOperations.m in Sources */,
+				8E6F43B1C195623730A1F415 /* MSEntityContainerEventCollectionFetcher.m in Sources */,
+				20653A1FD1858D342CF94C02 /* MSEntityContainerEventCollectionOperations.m in Sources */,
+				06BDB7C7A6D9A6A1F8D23A8F /* MSEntityContainerEventFetcher.m in Sources */,
+				348B7EDBA9C74C5759D4D716 /* MSEntityContainerEventMessageCollectionFetcher.m in Sources */,
+				EC785229F947C7BBB95C33FE /* MSEntityContainerEventMessageCollectionOperations.m in Sources */,
+				132AC9D3F4348E90888FE0C6 /* MSEntityContainerEventMessageFetcher.m in Sources */,
+				889B44082A937276C5386B8C /* MSEntityContainerEventMessageOperations.m in Sources */,
+				AAF2B0BB3E0143CD8B9BE886 /* MSEntityContainerEventOperations.m in Sources */,
+				ADBD9387BFD5AD138A98C8F8 /* MSEntityContainerFileAttachmentCollectionFetcher.m in Sources */,
+				57D7B652AC53A5572CE03FB0 /* MSEntityContainerFileAttachmentCollectionOperations.m in Sources */,
+				10E14708C6DCDFA129EB5502 /* MSEntityContainerFileAttachmentFetcher.m in Sources */,
+				880E90C54771FD75EAADF668 /* MSEntityContainerFileAttachmentOperations.m in Sources */,
+				9131F18EAA93EB7800191ACA /* MSEntityContainerFolderCollectionFetcher.m in Sources */,
+				DE05AD5A8D3E15FF78797F4B /* MSEntityContainerFolderCollectionOperations.m in Sources */,
+				EAC3C0FC86546C5676884AC0 /* MSEntityContainerFolderFetcher.m in Sources */,
+				F5894279BE77461613D16F62 /* MSEntityContainerFolderOperations.m in Sources */,
+				C497B5EF13A2499D64695AF5 /* MSEntityContainerItemAttachmentCollectionFetcher.m in Sources */,
+				D75F0E702730D9F1DB779C8D /* MSEntityContainerItemAttachmentCollectionOperations.m in Sources */,
+				01E32605488F0C377922D917 /* MSEntityContainerItemAttachmentFetcher.m in Sources */,
+				60A671A8FE56F1E45AC5AE5A /* MSEntityContainerItemAttachmentOperations.m in Sources */,
+				381056AD1D6BF83F99EF6B42 /* MSEntityContainerItemCollectionFetcher.m in Sources */,
+				A9C4128DFD12C287574E4F1A /* MSEntityContainerItemCollectionOperations.m in Sources */,
+				2B234369988EDEEF2FFB8088 /* MSEntityContainerItemFetcher.m in Sources */,
+				354E861289D4E41ED4A8ECFF /* MSEntityContainerItemOperations.m in Sources */,
+				DBF12D06B5D2C6F0EC29923E /* MSEntityContainerMessageCollectionFetcher.m in Sources */,
+				18FCA9979814386DC32ADCA1 /* MSEntityContainerMessageCollectionOperations.m in Sources */,
+				ADB5406337D60A024877502E /* MSEntityContainerMessageFetcher.m in Sources */,
+				1168A7138B0BAEE453299EA6 /* MSEntityContainerMessageOperations.m in Sources */,
+				4CBE37AE26BB7A83223A5AF4 /* MSEntityContainerUserCollectionFetcher.m in Sources */,
+				39B8D225197B6C7F01839587 /* MSEntityContainerUserCollectionOperations.m in Sources */,
+				41566E002D69923130BB40D0 /* MSEntityContainerUserFetcher.m in Sources */,
+				8F7D296D805FD509E57AC026 /* MSEntityContainerUserOperations.m in Sources */,
+				951D029C79E46E6DB1CBDD5F /* MSEntityContainerAttachment.m in Sources */,
+				E55AF06D5CB3B9CCDCD965FC /* MSEntityContainerAttendee.m in Sources */,
+				8CCD4FC7ED270B91884C5CE1 /* MSEntityContainerCalendar.m in Sources */,
+				A71FA7B5F11B86E111261D6D /* MSEntityContainerCalendarGroup.m in Sources */,
+				C5058E183F899DF318EE73D4 /* MSEntityContainerContact.m in Sources */,
+				A85EB7DB88AF25C2F2320173 /* MSEntityContainerContactFolder.m in Sources */,
+				6CA7EE8CF54456D6B653621B /* MSEntityContainerDirectoryObject.m in Sources */,
+				5F5ABC63DC7D8E261039CBAA /* MSEntityContainerEmailAddress.m in Sources */,
+				25723F43D4D9D6E0072E4DFA /* MSEntityContainerEntity.m in Sources */,
+				17F696FC57DE7458BA98A169 /* MSEntityContainerEvent.m in Sources */,
+				8E78EB9CD69584CE3E4C6F9C /* MSEntityContainerEventMessage.m in Sources */,
+				E868B92BA9381315970D8A8F /* MSEntityContainerFileAttachment.m in Sources */,
+				A866E936C42F1B59BF473ACE /* MSEntityContainerFolder.m in Sources */,
+				3C5646A3E9D8D5E2B9DA0E31 /* MSEntityContainerGeoCoordinates.m in Sources */,
+				2FBABA3ABD01BBEFE7B51C30 /* MSEntityContainerItem.m in Sources */,
+				EE8F69243B806B640239335E /* MSEntityContainerItemAttachment.m in Sources */,
+				7AC0CC9CACACBBCEB3D70B8A /* MSEntityContainerItemBody.m in Sources */,
+				9751AF7175C71E556B26BB9C /* MSEntityContainerLocation.m in Sources */,
+				ADFC34DB77278CEA8B867B74 /* MSEntityContainerMessage.m in Sources */,
+				319C3584F141D3B05F030C97 /* MSEntityContainerPatternedRecurrence.m in Sources */,
+				F223E5D219856A9D3803C759 /* MSEntityContainerPhysicalAddress.m in Sources */,
+				2F3F9B665B14F15466A3F403 /* MSEntityContainerRecipient.m in Sources */,
+				A02AA0CC77171BEC9E875FEB /* MSEntityContainerRecurrencePattern.m in Sources */,
+				EB3AF4CB489675C05EA4408A /* MSEntityContainerRecurrenceRange.m in Sources */,
+				FC18C445FE5F622CFE10CACE /* MSEntityContainerResponseStatus.m in Sources */,
+				0B2C7B7F7A3BEB1293E86471 /* MSEntityContainerUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BD9C3CA332FCAB5B19D4E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27259CB71AAF4BFF2E3F7F06 /* Pods-outlook.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		61CD801ED593B3EE72E11F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AAE81B50D5C3474AB4314B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8A1A3B380C7479BDF2E276 /* Pods-outlook.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9DFD99C420E7ABC1C36E93E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2014E36B82C434A8FE71B719 /* Build configuration list for PBXNativeTarget "outlook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD9C3CA332FCAB5B19D4E28 /* Release */,
+				7AAE81B50D5C3474AB4314B6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D74AEACD502416BDDCC29D /* Build configuration list for PBXProject "outlook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFD99C420E7ABC1C36E93E4 /* Debug */,
+				61CD801ED593B3EE72E11F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 889E96890B54754B42019B91 /* Project object */;
+}

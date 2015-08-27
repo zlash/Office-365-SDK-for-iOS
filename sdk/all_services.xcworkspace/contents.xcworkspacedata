@@ -2,24 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:unified_services/unified_services.xcodeproj">
+      location = "group:discovery/discovery.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:files_services/files_services.xcodeproj">
+      location = "group:files/files.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:outlook_services/outlook_services.xcodeproj">
+      location = "group:graph/graph.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:discovery_services/discovery_services.xcodeproj">
+      location = "group:onenote/onenote.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:onenote_services/onenote_services.xcodeproj">
+      location = "group:outlook/outlook.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:directory_services/directory_services.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FBDCB2B97B8460F95DA7262 /* MSEntityContainerServiceInfoFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A775090BE73291E3BF620A93 /* MSEntityContainerServiceInfoFetcher.m */; };
+		2FDC619A8E98097262908C21 /* MSEntityContainerServiceInfoOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 315F4D1A8755CB406AFBA853 /* MSEntityContainerServiceInfoOperations.h */; };
+		444175F73A7627E5F43AB80C /* MSEntityContainerFetchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCBE01048F0E510B84EE094 /* MSEntityContainerFetchers.h */; };
+		4F7E15F8E894D14E786A2756 /* MSEntityContainerServiceInfoCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FB030414B9692C262B9B3B /* MSEntityContainerServiceInfoCollectionOperations.h */; };
+		67B7EF2E3B8E5A5C5B2322E1 /* MSEntityContainerModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C91A98B82D774D3613624A /* MSEntityContainerModels.h */; };
+		70979E58B3BE29FE5524334E /* MSEntityContainerServiceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA001DBEC05C560DD4171E35 /* MSEntityContainerServiceInfo.m */; };
+		83394CD289C18BCAF6302769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87905AF2A6479B36C269698 /* Foundation.framework */; };
+		86DF8DF35B35A4B6AB26E0DA /* MSEntityContainerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C28AD4319A1E3E0129BFF7 /* MSEntityContainerClient.m */; };
+		8F3E3CDED737A94582D16A45 /* MSEntityContainerServiceInfoCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 175F3EF1909866F2E2BDD863 /* MSEntityContainerServiceInfoCollectionFetcher.m */; };
+		92D11D2D38EA4384DB79CEA6 /* MSEntityContainerServiceInfoCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3A3EB88F1ED69B16CA1BB /* MSEntityContainerServiceInfoCollectionOperations.m */; };
+		C11AE992D6C5B70715068A8E /* MSEntityContainerServiceInfoFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C767893DD7FB88B60B2A2D91 /* MSEntityContainerServiceInfoFetcher.h */; };
+		C9978F53A776CCBFC39B6151 /* MSEntityContainerServiceInfoOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8BCB3AE618AA51803F35A1 /* MSEntityContainerServiceInfoOperations.m */; };
+		E4391D142FA5A97F7F91616D /* libPods-discovery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D32283D4452269419F9CEFEE /* libPods-discovery.a */; };
+		ED021A9B63D4408B941E9F32 /* MSEntityContainerServiceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C4863A1C352577EBC5F97A /* MSEntityContainerServiceInfo.h */; };
+		F771F52553E0534B626E42C8 /* MSEntityContainerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B966F2A4909C7CA9E51C047E /* MSEntityContainerClient.h */; };
+		FC50DCC16C8CFF2689A9FF1E /* MSEntityContainerServiceInfoCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC4AA6F8C184934D965666E /* MSEntityContainerServiceInfoCollectionFetcher.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		175F3EF1909866F2E2BDD863 /* MSEntityContainerServiceInfoCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerServiceInfoCollectionFetcher.m; path = ./Fetchers/MSEntityContainerServiceInfoCollectionFetcher.m; sourceTree = "<group>"; };
+		17C4863A1C352577EBC5F97A /* MSEntityContainerServiceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerServiceInfo.h; path = ./Model/MSEntityContainerServiceInfo.h; sourceTree = "<group>"; };
+		315F4D1A8755CB406AFBA853 /* MSEntityContainerServiceInfoOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerServiceInfoOperations.h; path = ./Fetchers/MSEntityContainerServiceInfoOperations.h; sourceTree = "<group>"; };
+		51AAC273B8912D9DC802D6EC /* libdiscovery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdiscovery.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C91A98B82D774D3613624A /* MSEntityContainerModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerModels.h; path = ./Model/MSEntityContainerModels.h; sourceTree = "<group>"; };
+		663C4A31F4BBAD6491AFE88A /* Pods-discovery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-discovery.release.xcconfig"; path = "../Pods/Target Support Files/Pods-discovery/Pods-discovery.release.xcconfig"; sourceTree = "<group>"; };
+		6DCBE01048F0E510B84EE094 /* MSEntityContainerFetchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerFetchers.h; path = ./Fetchers/MSEntityContainerFetchers.h; sourceTree = "<group>"; };
+		7AA3A3EB88F1ED69B16CA1BB /* MSEntityContainerServiceInfoCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerServiceInfoCollectionOperations.m; path = ./Fetchers/MSEntityContainerServiceInfoCollectionOperations.m; sourceTree = "<group>"; };
+		A775090BE73291E3BF620A93 /* MSEntityContainerServiceInfoFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerServiceInfoFetcher.m; path = ./Fetchers/MSEntityContainerServiceInfoFetcher.m; sourceTree = "<group>"; };
+		B966F2A4909C7CA9E51C047E /* MSEntityContainerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerClient.h; path = ./Fetchers/MSEntityContainerClient.h; sourceTree = "<group>"; };
+		C767893DD7FB88B60B2A2D91 /* MSEntityContainerServiceInfoFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerServiceInfoFetcher.h; path = ./Fetchers/MSEntityContainerServiceInfoFetcher.h; sourceTree = "<group>"; };
+		C9C28AD4319A1E3E0129BFF7 /* MSEntityContainerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerClient.m; path = ./Fetchers/MSEntityContainerClient.m; sourceTree = "<group>"; };
+		D32283D4452269419F9CEFEE /* libPods-discovery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-discovery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FB030414B9692C262B9B3B /* MSEntityContainerServiceInfoCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerServiceInfoCollectionOperations.h; path = ./Fetchers/MSEntityContainerServiceInfoCollectionOperations.h; sourceTree = "<group>"; };
+		E4BD2141CBBFDB14600B8FB8 /* Pods-discovery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-discovery.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-discovery/Pods-discovery.debug.xcconfig"; sourceTree = "<group>"; };
+		EA001DBEC05C560DD4171E35 /* MSEntityContainerServiceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerServiceInfo.m; path = ./Model/MSEntityContainerServiceInfo.m; sourceTree = "<group>"; };
+		F87905AF2A6479B36C269698 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FEC4AA6F8C184934D965666E /* MSEntityContainerServiceInfoCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSEntityContainerServiceInfoCollectionFetcher.h; path = ./Fetchers/MSEntityContainerServiceInfoCollectionFetcher.h; sourceTree = "<group>"; };
+		FF8BCB3AE618AA51803F35A1 /* MSEntityContainerServiceInfoOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSEntityContainerServiceInfoOperations.m; path = ./Fetchers/MSEntityContainerServiceInfoOperations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8A12FF707DB2A903D743110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83394CD289C18BCAF6302769 /* Foundation.framework in Frameworks */,
+				E4391D142FA5A97F7F91616D /* libPods-discovery.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F3A0AF4A4BCE20DA46D12E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62C91A98B82D774D3613624A /* MSEntityContainerModels.h */,
+				17C4863A1C352577EBC5F97A /* MSEntityContainerServiceInfo.h */,
+				EA001DBEC05C560DD4171E35 /* MSEntityContainerServiceInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7F156C1374561DE3F7DF9407 = {
+			isa = PBXGroup;
+			children = (
+				C686E383E622B63165634772 /* Products */,
+				BD05F07A54CFF46D46BDEDCC /* Frameworks */,
+				FB688226D2604D21C59B54BB /* Fetchers */,
+				50F3A0AF4A4BCE20DA46D12E /* Model */,
+				8CD9A81261D1D4A34BA84C7C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD9A81261D1D4A34BA84C7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				663C4A31F4BBAD6491AFE88A /* Pods-discovery.release.xcconfig */,
+				E4BD2141CBBFDB14600B8FB8 /* Pods-discovery.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B035160EBC8A118AEF20E542 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F87905AF2A6479B36C269698 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BD05F07A54CFF46D46BDEDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B035160EBC8A118AEF20E542 /* iOS */,
+				D32283D4452269419F9CEFEE /* libPods-discovery.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C686E383E622B63165634772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51AAC273B8912D9DC802D6EC /* libdiscovery.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB688226D2604D21C59B54BB /* Fetchers */ = {
+			isa = PBXGroup;
+			children = (
+				B966F2A4909C7CA9E51C047E /* MSEntityContainerClient.h */,
+				C9C28AD4319A1E3E0129BFF7 /* MSEntityContainerClient.m */,
+				6DCBE01048F0E510B84EE094 /* MSEntityContainerFetchers.h */,
+				FEC4AA6F8C184934D965666E /* MSEntityContainerServiceInfoCollectionFetcher.h */,
+				175F3EF1909866F2E2BDD863 /* MSEntityContainerServiceInfoCollectionFetcher.m */,
+				D5FB030414B9692C262B9B3B /* MSEntityContainerServiceInfoCollectionOperations.h */,
+				7AA3A3EB88F1ED69B16CA1BB /* MSEntityContainerServiceInfoCollectionOperations.m */,
+				C767893DD7FB88B60B2A2D91 /* MSEntityContainerServiceInfoFetcher.h */,
+				A775090BE73291E3BF620A93 /* MSEntityContainerServiceInfoFetcher.m */,
+				315F4D1A8755CB406AFBA853 /* MSEntityContainerServiceInfoOperations.h */,
+				FF8BCB3AE618AA51803F35A1 /* MSEntityContainerServiceInfoOperations.m */,
+			);
+			name = Fetchers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56D4D49024DCDBCA9F84CE7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F771F52553E0534B626E42C8 /* MSEntityContainerClient.h in Headers */,
+				444175F73A7627E5F43AB80C /* MSEntityContainerFetchers.h in Headers */,
+				FC50DCC16C8CFF2689A9FF1E /* MSEntityContainerServiceInfoCollectionFetcher.h in Headers */,
+				4F7E15F8E894D14E786A2756 /* MSEntityContainerServiceInfoCollectionOperations.h in Headers */,
+				C11AE992D6C5B70715068A8E /* MSEntityContainerServiceInfoFetcher.h in Headers */,
+				2FDC619A8E98097262908C21 /* MSEntityContainerServiceInfoOperations.h in Headers */,
+				67B7EF2E3B8E5A5C5B2322E1 /* MSEntityContainerModels.h in Headers */,
+				ED021A9B63D4408B941E9F32 /* MSEntityContainerServiceInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DB6B7D08F35C1CDBE4F5C6F /* discovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA72937480D3B0B5DB85221 /* Build configuration list for PBXNativeTarget "discovery" */;
+			buildPhases = (
+				F561BB5AA7851D18F686C303 /* Check Pods Manifest.lock */,
+				676C42886CF211A77CD24A42 /* Sources */,
+				D8A12FF707DB2A903D743110 /* Frameworks */,
+				56D4D49024DCDBCA9F84CE7A /* Headers */,
+				0469912C551D471A5AA1CED8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = discovery;
+			productName = discovery;
+			productReference = 51AAC273B8912D9DC802D6EC /* libdiscovery.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D03EE2FC6F0D28D09DD2B44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 38FB057E31736CCFAA428966 /* Build configuration list for PBXProject "discovery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F156C1374561DE3F7DF9407;
+			productRefGroup = C686E383E622B63165634772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB6B7D08F35C1CDBE4F5C6F /* discovery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0469912C551D471A5AA1CED8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-discovery/Pods-discovery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F561BB5AA7851D18F686C303 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676C42886CF211A77CD24A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DF8DF35B35A4B6AB26E0DA /* MSEntityContainerClient.m in Sources */,
+				8F3E3CDED737A94582D16A45 /* MSEntityContainerServiceInfoCollectionFetcher.m in Sources */,
+				92D11D2D38EA4384DB79CEA6 /* MSEntityContainerServiceInfoCollectionOperations.m in Sources */,
+				0FBDCB2B97B8460F95DA7262 /* MSEntityContainerServiceInfoFetcher.m in Sources */,
+				C9978F53A776CCBFC39B6151 /* MSEntityContainerServiceInfoOperations.m in Sources */,
+				70979E58B3BE29FE5524334E /* MSEntityContainerServiceInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96C8B16B667A0C88C3275855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		C19EE77D3C18FFC03D6CEBD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663C4A31F4BBAD6491AFE88A /* Pods-discovery.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DAA2A8702B3042084D290760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC483E0A086AFEE545493BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BD2141CBBFDB14600B8FB8 /* Pods-discovery.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38FB057E31736CCFAA428966 /* Build configuration list for PBXProject "discovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C8B16B667A0C88C3275855 /* Debug */,
+				DAA2A8702B3042084D290760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA72937480D3B0B5DB85221 /* Build configuration list for PBXNativeTarget "discovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19EE77D3C18FFC03D6CEBD0 /* Release */,
+				DC483E0A086AFEE545493BA6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D03EE2FC6F0D28D09DD2B44 /* Project object */;
+}

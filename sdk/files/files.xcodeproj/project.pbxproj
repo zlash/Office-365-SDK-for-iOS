@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084E2BE2A1F4B8F1A1C71B02 /* MSSharePointFolderCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EA500C1B6BC6509AB140BCD6 /* MSSharePointFolderCollectionFetcher.m */; };
+		0D6076C77EF622A6D8D38278 /* MSSharePointIdentitySet.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D5D6A1E5C79D26BF015CC4 /* MSSharePointIdentitySet.m */; };
+		19A37B0E5A2FDF7BB7F0F40C /* MSSharePointFolderOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5578520D7E850EEF5761A34A /* MSSharePointFolderOperations.m */; };
+		1A0D97824A38188C41E0392E /* MSSharePointItemFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EC743B2175BBA220368EA629 /* MSSharePointItemFetcher.m */; };
+		1EE8D93E63C9A2092BB86B9F /* MSSharePointItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCFF64B6400037F68D43B36 /* MSSharePointItem.m */; };
+		1EFB2823516C5976C4F4AF63 /* MSSharePointDriveOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 58CE9F47505D40ED8B532BCA /* MSSharePointDriveOperations.h */; };
+		2A62C1CB9BCF4D869DED4CD0 /* MSSharePointDriveQuota.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE4F6367F511E0CAB8FEAF7 /* MSSharePointDriveQuota.h */; };
+		309E28E0F7AB00A921147C8C /* MSSharePointFolderOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D0F20CD7E6DFEEFD6DECBD /* MSSharePointFolderOperations.h */; };
+		32F88CF6930A28897049CF69 /* MSSharePointModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A584CE6202D1454E1D7EDA /* MSSharePointModels.h */; };
+		38AAB88E219CE7DAA547D622 /* MSSharePointFileCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D552D8809D0FE5B5D683D6D /* MSSharePointFileCollectionOperations.h */; };
+		3A585BCB829CF44824197F49 /* MSSharePointFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 550EA830210FA361CF00148D /* MSSharePointFile.h */; };
+		3B4F4677730CFE5FEA31D683 /* MSSharePointFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A83626BE2ABD7B5FFC6A9C96 /* MSSharePointFile.m */; };
+		3BB3A38FF4F29B3D5F51545F /* MSSharePointItemOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E183E1160E113105FAB25F4 /* MSSharePointItemOperations.m */; };
+		437BD415470B4A1E858EB58E /* MSSharePointFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DA0480FF7DF9A26A43CDE6 /* MSSharePointFolder.h */; };
+		44E0690627B81BB648DBD5EB /* MSSharePointFolderCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 438245A09D9B2FE54E159B39 /* MSSharePointFolderCollectionOperations.m */; };
+		4BAE7E5B5993A0E142AD6B3A /* MSSharePointItemCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 2971D8E781201EDB701CDFD4 /* MSSharePointItemCollectionOperations.h */; };
+		51E9827149709635DD5B07A1 /* MSSharePointItemReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D657748750EEAC61864031C /* MSSharePointItemReference.h */; };
+		55A0B7FE219C56E19B0CD31F /* MSSharePointFileOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B7607435F02662C096C6D /* MSSharePointFileOperations.m */; };
+		5878117C03E353A63F97B04D /* libPods-files.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F535A2BE3A1AB0967CF236 /* libPods-files.a */; };
+		5AA9E2086F296EAB5AE1EF57 /* MSSharePointFolderFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9446F94CAAC6A94F143C2723 /* MSSharePointFolderFetcher.h */; };
+		5DEE38989708B4FB8EE0EF17 /* MSSharePointItemCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 582CA7BCABFBA81F91A0E977 /* MSSharePointItemCollectionFetcher.m */; };
+		60BB67B38BA28CECEE413629 /* MSSharePointFileOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC546CA4E3BF40739BE8A46 /* MSSharePointFileOperations.h */; };
+		625251EDE33AF20A132F411A /* MSSharePointItemOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = DA86F7B351203C80E1F05744 /* MSSharePointItemOperations.h */; };
+		654D8F403FA9A45780A927A6 /* MSSharePointItemReference.m in Sources */ = {isa = PBXBuildFile; fileRef = B264255B50DF3BD83E536D66 /* MSSharePointItemReference.m */; };
+		68EDD2CC4931A920515F579F /* MSSharePointFileCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F2F964BC94A41874B74F01 /* MSSharePointFileCollectionFetcher.h */; };
+		69FAF9FB6BA0A237040B1403 /* MSSharePointFolderCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C775ED6B2AF9327CC34429 /* MSSharePointFolderCollectionOperations.h */; };
+		6AFBC278BDF86F7F9FBEE702 /* MSSharePointItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B5899AF5E93DDBC7E2008F /* MSSharePointItem.h */; };
+		6F1AA7A2C2BD54875930B0BA /* MSSharePointDriveCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C30675805554594D36F55F48 /* MSSharePointDriveCollectionFetcher.h */; };
+		7452482949BD56CE3121CA3B /* MSSharePointDriveCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDA0D012A41DAD539D4A29 /* MSSharePointDriveCollectionFetcher.m */; };
+		81BB40E974008C61989D2958 /* MSSharePointDriveFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2186CE84AD83E1EFE5FB89 /* MSSharePointDriveFetcher.m */; };
+		87B731B9244C33B091784681 /* MSSharePointDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = B490CEE97F926F2A7328C9E1 /* MSSharePointDrive.m */; };
+		88792288741E50A52924F697 /* MSSharePointDriveOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 03036D5773753913F8BDD774 /* MSSharePointDriveOperations.m */; };
+		8DA51B4C624D83F8DEA7443A /* MSSharePointImageFacet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7DE7FC2D9A7739468D5A8 /* MSSharePointImageFacet.m */; };
+		92B66CCF59F3BEE48ABC44DD /* MSSharePointImageFacet.h in Headers */ = {isa = PBXBuildFile; fileRef = 49093F97E331D8F9E32B2ED2 /* MSSharePointImageFacet.h */; };
+		948E882D1ED03F434C8242DF /* MSSharePointClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3B37E8A24F360DE6D6C916 /* MSSharePointClient.h */; };
+		9B59340038145E0AF0820BEE /* MSSharePointDriveQuota.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B683D04536DBA0877584D51 /* MSSharePointDriveQuota.m */; };
+		A2655E45B0A8CC523287B8D9 /* MSSharePointFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F094C8D3BA3E031BFDD7BC0F /* MSSharePointFolder.m */; };
+		A7E525CC3BE26F9F0894C31F /* MSSharePointClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 90534C1F9539EE041601B7FD /* MSSharePointClient.m */; };
+		A8B6A3315FBFEC2BFABD9097 /* MSSharePointIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FDC289B62D6B1E5A3EDE697 /* MSSharePointIdentity.h */; };
+		AAAD49548DECF61328551E9C /* MSSharePointItemCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAD9D74A32812CD48AEE199 /* MSSharePointItemCollectionFetcher.h */; };
+		AB55AD061D83450E43E36A96 /* MSSharePointDriveCollectionOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 984070ED5EE925EED61701A7 /* MSSharePointDriveCollectionOperations.h */; };
+		AD5FE9DA8ACB756AAA5F1A32 /* MSSharePointItemFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFC8688368C6EA641F01FCE /* MSSharePointItemFetcher.h */; };
+		B4CC3ECF562CB0CC32741D0D /* MSSharePointFolderFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD04F3DB80E72C6411FD58E3 /* MSSharePointFolderFetcher.m */; };
+		C3BD2B5C15228E798A173AED /* MSSharePointFolderCollectionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF81FEF03E1B83EE87899D2 /* MSSharePointFolderCollectionFetcher.h */; };
+		C64AB94DCCC615547E18EDAE /* MSSharePointItemCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D654646C0FD09180FC2E67 /* MSSharePointItemCollectionOperations.m */; };
+		D0357579C4668CCA2E30218A /* MSSharePointDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8C36D1EF34D852355FF531 /* MSSharePointDrive.h */; };
+		DEF4058C97CF812181F75F47 /* MSSharePointFileFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E78DB2BBDD949B209AEBBA7B /* MSSharePointFileFetcher.h */; };
+		E3C702B44AED1D5E2CEBBC8B /* MSSharePointFileFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB8E3A1888EA7213F073CF /* MSSharePointFileFetcher.m */; };
+		E4130A05709988ABE17E4AD6 /* MSSharePointFileCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1F6ACBFD43CAF46664C24D /* MSSharePointFileCollectionOperations.m */; };
+		E9E54128024F1AB94747F99D /* MSSharePointIdentitySet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBB6CFBA6471EF1F800741E /* MSSharePointIdentitySet.h */; };
+		EC5EA9AE174AF400663E2485 /* MSSharePointFetchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F34E1BEBF2BD952C3A68CD5 /* MSSharePointFetchers.h */; };
+		EC86B2696E041DEDBA7E231E /* MSSharePointDriveFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F04BCF324ECCED48D84622 /* MSSharePointDriveFetcher.h */; };
+		EFC23A31174E55F2F4E7885E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8157B948B3876EFF7E6F47 /* Foundation.framework */; };
+		F24DEA62BDF7DC2E5E98BAFF /* MSSharePointDriveCollectionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6753AB80A5452FB1ECFD1D /* MSSharePointDriveCollectionOperations.m */; };
+		F3C4CC098F33626E3632D665 /* MSSharePointIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0AA65A4CAC3D08ACE55589 /* MSSharePointIdentity.m */; };
+		F44B56CBD605EEEB98902B45 /* MSSharePointFileCollectionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF5623DDE50BB1BCAD704F0 /* MSSharePointFileCollectionFetcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03036D5773753913F8BDD774 /* MSSharePointDriveOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointDriveOperations.m; path = ./Fetchers/MSSharePointDriveOperations.m; sourceTree = "<group>"; };
+		07D654646C0FD09180FC2E67 /* MSSharePointItemCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointItemCollectionOperations.m; path = ./Fetchers/MSSharePointItemCollectionOperations.m; sourceTree = "<group>"; };
+		0B2186CE84AD83E1EFE5FB89 /* MSSharePointDriveFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointDriveFetcher.m; path = ./Fetchers/MSSharePointDriveFetcher.m; sourceTree = "<group>"; };
+		1BAD9D74A32812CD48AEE199 /* MSSharePointItemCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointItemCollectionFetcher.h; path = ./Fetchers/MSSharePointItemCollectionFetcher.h; sourceTree = "<group>"; };
+		1C6753AB80A5452FB1ECFD1D /* MSSharePointDriveCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointDriveCollectionOperations.m; path = ./Fetchers/MSSharePointDriveCollectionOperations.m; sourceTree = "<group>"; };
+		1E9E9BBEB0C9563F58CC0A19 /* libfiles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfiles.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D0F20CD7E6DFEEFD6DECBD /* MSSharePointFolderOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFolderOperations.h; path = ./Fetchers/MSSharePointFolderOperations.h; sourceTree = "<group>"; };
+		2971D8E781201EDB701CDFD4 /* MSSharePointItemCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointItemCollectionOperations.h; path = ./Fetchers/MSSharePointItemCollectionOperations.h; sourceTree = "<group>"; };
+		30D5D6A1E5C79D26BF015CC4 /* MSSharePointIdentitySet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointIdentitySet.m; path = ./Model/MSSharePointIdentitySet.m; sourceTree = "<group>"; };
+		3FDC289B62D6B1E5A3EDE697 /* MSSharePointIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointIdentity.h; path = ./Model/MSSharePointIdentity.h; sourceTree = "<group>"; };
+		438245A09D9B2FE54E159B39 /* MSSharePointFolderCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFolderCollectionOperations.m; path = ./Fetchers/MSSharePointFolderCollectionOperations.m; sourceTree = "<group>"; };
+		48F04BCF324ECCED48D84622 /* MSSharePointDriveFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointDriveFetcher.h; path = ./Fetchers/MSSharePointDriveFetcher.h; sourceTree = "<group>"; };
+		49093F97E331D8F9E32B2ED2 /* MSSharePointImageFacet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointImageFacet.h; path = ./Model/MSSharePointImageFacet.h; sourceTree = "<group>"; };
+		4B683D04536DBA0877584D51 /* MSSharePointDriveQuota.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointDriveQuota.m; path = ./Model/MSSharePointDriveQuota.m; sourceTree = "<group>"; };
+		4D552D8809D0FE5B5D683D6D /* MSSharePointFileCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFileCollectionOperations.h; path = ./Fetchers/MSSharePointFileCollectionOperations.h; sourceTree = "<group>"; };
+		4FFC8688368C6EA641F01FCE /* MSSharePointItemFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointItemFetcher.h; path = ./Fetchers/MSSharePointItemFetcher.h; sourceTree = "<group>"; };
+		550EA830210FA361CF00148D /* MSSharePointFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFile.h; path = ./Model/MSSharePointFile.h; sourceTree = "<group>"; };
+		5578520D7E850EEF5761A34A /* MSSharePointFolderOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFolderOperations.m; path = ./Fetchers/MSSharePointFolderOperations.m; sourceTree = "<group>"; };
+		582CA7BCABFBA81F91A0E977 /* MSSharePointItemCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointItemCollectionFetcher.m; path = ./Fetchers/MSSharePointItemCollectionFetcher.m; sourceTree = "<group>"; };
+		58C775ED6B2AF9327CC34429 /* MSSharePointFolderCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFolderCollectionOperations.h; path = ./Fetchers/MSSharePointFolderCollectionOperations.h; sourceTree = "<group>"; };
+		58CE9F47505D40ED8B532BCA /* MSSharePointDriveOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointDriveOperations.h; path = ./Fetchers/MSSharePointDriveOperations.h; sourceTree = "<group>"; };
+		5A5B7607435F02662C096C6D /* MSSharePointFileOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFileOperations.m; path = ./Fetchers/MSSharePointFileOperations.m; sourceTree = "<group>"; };
+		5F8157B948B3876EFF7E6F47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A3B37E8A24F360DE6D6C916 /* MSSharePointClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointClient.h; path = ./Fetchers/MSSharePointClient.h; sourceTree = "<group>"; };
+		6CC546CA4E3BF40739BE8A46 /* MSSharePointFileOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFileOperations.h; path = ./Fetchers/MSSharePointFileOperations.h; sourceTree = "<group>"; };
+		6D657748750EEAC61864031C /* MSSharePointItemReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointItemReference.h; path = ./Model/MSSharePointItemReference.h; sourceTree = "<group>"; };
+		6E183E1160E113105FAB25F4 /* MSSharePointItemOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointItemOperations.m; path = ./Fetchers/MSSharePointItemOperations.m; sourceTree = "<group>"; };
+		6EBB6CFBA6471EF1F800741E /* MSSharePointIdentitySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointIdentitySet.h; path = ./Model/MSSharePointIdentitySet.h; sourceTree = "<group>"; };
+		6F0AA65A4CAC3D08ACE55589 /* MSSharePointIdentity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointIdentity.m; path = ./Model/MSSharePointIdentity.m; sourceTree = "<group>"; };
+		70A584CE6202D1454E1D7EDA /* MSSharePointModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointModels.h; path = ./Model/MSSharePointModels.h; sourceTree = "<group>"; };
+		7BCFF64B6400037F68D43B36 /* MSSharePointItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointItem.m; path = ./Model/MSSharePointItem.m; sourceTree = "<group>"; };
+		7ECDA0D012A41DAD539D4A29 /* MSSharePointDriveCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointDriveCollectionFetcher.m; path = ./Fetchers/MSSharePointDriveCollectionFetcher.m; sourceTree = "<group>"; };
+		7F34E1BEBF2BD952C3A68CD5 /* MSSharePointFetchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFetchers.h; path = ./Fetchers/MSSharePointFetchers.h; sourceTree = "<group>"; };
+		7FF81FEF03E1B83EE87899D2 /* MSSharePointFolderCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFolderCollectionFetcher.h; path = ./Fetchers/MSSharePointFolderCollectionFetcher.h; sourceTree = "<group>"; };
+		84CB8E3A1888EA7213F073CF /* MSSharePointFileFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFileFetcher.m; path = ./Fetchers/MSSharePointFileFetcher.m; sourceTree = "<group>"; };
+		8AC7DE7FC2D9A7739468D5A8 /* MSSharePointImageFacet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointImageFacet.m; path = ./Model/MSSharePointImageFacet.m; sourceTree = "<group>"; };
+		8CE4F6367F511E0CAB8FEAF7 /* MSSharePointDriveQuota.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointDriveQuota.h; path = ./Model/MSSharePointDriveQuota.h; sourceTree = "<group>"; };
+		90534C1F9539EE041601B7FD /* MSSharePointClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointClient.m; path = ./Fetchers/MSSharePointClient.m; sourceTree = "<group>"; };
+		91F55F3CCDAE577608522B67 /* Pods-files.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-files.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-files/Pods-files.debug.xcconfig"; sourceTree = "<group>"; };
+		9446F94CAAC6A94F143C2723 /* MSSharePointFolderFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFolderFetcher.h; path = ./Fetchers/MSSharePointFolderFetcher.h; sourceTree = "<group>"; };
+		984070ED5EE925EED61701A7 /* MSSharePointDriveCollectionOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointDriveCollectionOperations.h; path = ./Fetchers/MSSharePointDriveCollectionOperations.h; sourceTree = "<group>"; };
+		99F535A2BE3A1AB0967CF236 /* libPods-files.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-files.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83626BE2ABD7B5FFC6A9C96 /* MSSharePointFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFile.m; path = ./Model/MSSharePointFile.m; sourceTree = "<group>"; };
+		B264255B50DF3BD83E536D66 /* MSSharePointItemReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointItemReference.m; path = ./Model/MSSharePointItemReference.m; sourceTree = "<group>"; };
+		B490CEE97F926F2A7328C9E1 /* MSSharePointDrive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointDrive.m; path = ./Model/MSSharePointDrive.m; sourceTree = "<group>"; };
+		C30675805554594D36F55F48 /* MSSharePointDriveCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointDriveCollectionFetcher.h; path = ./Fetchers/MSSharePointDriveCollectionFetcher.h; sourceTree = "<group>"; };
+		CE8C36D1EF34D852355FF531 /* MSSharePointDrive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointDrive.h; path = ./Model/MSSharePointDrive.h; sourceTree = "<group>"; };
+		CF1F6ACBFD43CAF46664C24D /* MSSharePointFileCollectionOperations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFileCollectionOperations.m; path = ./Fetchers/MSSharePointFileCollectionOperations.m; sourceTree = "<group>"; };
+		CFF5623DDE50BB1BCAD704F0 /* MSSharePointFileCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFileCollectionFetcher.m; path = ./Fetchers/MSSharePointFileCollectionFetcher.m; sourceTree = "<group>"; };
+		D8DA0480FF7DF9A26A43CDE6 /* MSSharePointFolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFolder.h; path = ./Model/MSSharePointFolder.h; sourceTree = "<group>"; };
+		DA86F7B351203C80E1F05744 /* MSSharePointItemOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointItemOperations.h; path = ./Fetchers/MSSharePointItemOperations.h; sourceTree = "<group>"; };
+		E2B5899AF5E93DDBC7E2008F /* MSSharePointItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointItem.h; path = ./Model/MSSharePointItem.h; sourceTree = "<group>"; };
+		E78DB2BBDD949B209AEBBA7B /* MSSharePointFileFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFileFetcher.h; path = ./Fetchers/MSSharePointFileFetcher.h; sourceTree = "<group>"; };
+		E9EEE56F1B18636EA757AA06 /* Pods-files.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-files.release.xcconfig"; path = "../Pods/Target Support Files/Pods-files/Pods-files.release.xcconfig"; sourceTree = "<group>"; };
+		EA500C1B6BC6509AB140BCD6 /* MSSharePointFolderCollectionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFolderCollectionFetcher.m; path = ./Fetchers/MSSharePointFolderCollectionFetcher.m; sourceTree = "<group>"; };
+		EC743B2175BBA220368EA629 /* MSSharePointItemFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointItemFetcher.m; path = ./Fetchers/MSSharePointItemFetcher.m; sourceTree = "<group>"; };
+		F094C8D3BA3E031BFDD7BC0F /* MSSharePointFolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFolder.m; path = ./Model/MSSharePointFolder.m; sourceTree = "<group>"; };
+		F0F2F964BC94A41874B74F01 /* MSSharePointFileCollectionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSharePointFileCollectionFetcher.h; path = ./Fetchers/MSSharePointFileCollectionFetcher.h; sourceTree = "<group>"; };
+		FD04F3DB80E72C6411FD58E3 /* MSSharePointFolderFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSSharePointFolderFetcher.m; path = ./Fetchers/MSSharePointFolderFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D73FAF19AD48F3909E6D89CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC23A31174E55F2F4E7885E /* Foundation.framework in Frameworks */,
+				5878117C03E353A63F97B04D /* libPods-files.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BCE54961AF00D57F897AAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62B65F6D544B25ABB22AEA6B /* iOS */,
+				99F535A2BE3A1AB0967CF236 /* libPods-files.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62B65F6D544B25ABB22AEA6B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F8157B948B3876EFF7E6F47 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AB89BFB286E9B7B184C9F577 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9EEE56F1B18636EA757AA06 /* Pods-files.release.xcconfig */,
+				91F55F3CCDAE577608522B67 /* Pods-files.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6C6C819F7EF722E01D23D07 /* Fetchers */ = {
+			isa = PBXGroup;
+			children = (
+				6A3B37E8A24F360DE6D6C916 /* MSSharePointClient.h */,
+				90534C1F9539EE041601B7FD /* MSSharePointClient.m */,
+				C30675805554594D36F55F48 /* MSSharePointDriveCollectionFetcher.h */,
+				7ECDA0D012A41DAD539D4A29 /* MSSharePointDriveCollectionFetcher.m */,
+				984070ED5EE925EED61701A7 /* MSSharePointDriveCollectionOperations.h */,
+				1C6753AB80A5452FB1ECFD1D /* MSSharePointDriveCollectionOperations.m */,
+				48F04BCF324ECCED48D84622 /* MSSharePointDriveFetcher.h */,
+				0B2186CE84AD83E1EFE5FB89 /* MSSharePointDriveFetcher.m */,
+				58CE9F47505D40ED8B532BCA /* MSSharePointDriveOperations.h */,
+				03036D5773753913F8BDD774 /* MSSharePointDriveOperations.m */,
+				7F34E1BEBF2BD952C3A68CD5 /* MSSharePointFetchers.h */,
+				F0F2F964BC94A41874B74F01 /* MSSharePointFileCollectionFetcher.h */,
+				CFF5623DDE50BB1BCAD704F0 /* MSSharePointFileCollectionFetcher.m */,
+				4D552D8809D0FE5B5D683D6D /* MSSharePointFileCollectionOperations.h */,
+				CF1F6ACBFD43CAF46664C24D /* MSSharePointFileCollectionOperations.m */,
+				E78DB2BBDD949B209AEBBA7B /* MSSharePointFileFetcher.h */,
+				84CB8E3A1888EA7213F073CF /* MSSharePointFileFetcher.m */,
+				6CC546CA4E3BF40739BE8A46 /* MSSharePointFileOperations.h */,
+				5A5B7607435F02662C096C6D /* MSSharePointFileOperations.m */,
+				7FF81FEF03E1B83EE87899D2 /* MSSharePointFolderCollectionFetcher.h */,
+				EA500C1B6BC6509AB140BCD6 /* MSSharePointFolderCollectionFetcher.m */,
+				58C775ED6B2AF9327CC34429 /* MSSharePointFolderCollectionOperations.h */,
+				438245A09D9B2FE54E159B39 /* MSSharePointFolderCollectionOperations.m */,
+				9446F94CAAC6A94F143C2723 /* MSSharePointFolderFetcher.h */,
+				FD04F3DB80E72C6411FD58E3 /* MSSharePointFolderFetcher.m */,
+				20D0F20CD7E6DFEEFD6DECBD /* MSSharePointFolderOperations.h */,
+				5578520D7E850EEF5761A34A /* MSSharePointFolderOperations.m */,
+				1BAD9D74A32812CD48AEE199 /* MSSharePointItemCollectionFetcher.h */,
+				582CA7BCABFBA81F91A0E977 /* MSSharePointItemCollectionFetcher.m */,
+				2971D8E781201EDB701CDFD4 /* MSSharePointItemCollectionOperations.h */,
+				07D654646C0FD09180FC2E67 /* MSSharePointItemCollectionOperations.m */,
+				4FFC8688368C6EA641F01FCE /* MSSharePointItemFetcher.h */,
+				EC743B2175BBA220368EA629 /* MSSharePointItemFetcher.m */,
+				DA86F7B351203C80E1F05744 /* MSSharePointItemOperations.h */,
+				6E183E1160E113105FAB25F4 /* MSSharePointItemOperations.m */,
+			);
+			name = Fetchers;
+			sourceTree = "<group>";
+		};
+		D1F0B2C537F376C11AFC73C3 = {
+			isa = PBXGroup;
+			children = (
+				E9FE85AB0D2A5176F58B55CA /* Products */,
+				0BCE54961AF00D57F897AAFD /* Frameworks */,
+				C6C6C819F7EF722E01D23D07 /* Fetchers */,
+				F85C127E1437EBED515F549F /* Model */,
+				AB89BFB286E9B7B184C9F577 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E9FE85AB0D2A5176F58B55CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E9E9BBEB0C9563F58CC0A19 /* libfiles.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85C127E1437EBED515F549F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C36D1EF34D852355FF531 /* MSSharePointDrive.h */,
+				B490CEE97F926F2A7328C9E1 /* MSSharePointDrive.m */,
+				8CE4F6367F511E0CAB8FEAF7 /* MSSharePointDriveQuota.h */,
+				4B683D04536DBA0877584D51 /* MSSharePointDriveQuota.m */,
+				550EA830210FA361CF00148D /* MSSharePointFile.h */,
+				A83626BE2ABD7B5FFC6A9C96 /* MSSharePointFile.m */,
+				D8DA0480FF7DF9A26A43CDE6 /* MSSharePointFolder.h */,
+				F094C8D3BA3E031BFDD7BC0F /* MSSharePointFolder.m */,
+				3FDC289B62D6B1E5A3EDE697 /* MSSharePointIdentity.h */,
+				6F0AA65A4CAC3D08ACE55589 /* MSSharePointIdentity.m */,
+				6EBB6CFBA6471EF1F800741E /* MSSharePointIdentitySet.h */,
+				30D5D6A1E5C79D26BF015CC4 /* MSSharePointIdentitySet.m */,
+				49093F97E331D8F9E32B2ED2 /* MSSharePointImageFacet.h */,
+				8AC7DE7FC2D9A7739468D5A8 /* MSSharePointImageFacet.m */,
+				E2B5899AF5E93DDBC7E2008F /* MSSharePointItem.h */,
+				7BCFF64B6400037F68D43B36 /* MSSharePointItem.m */,
+				6D657748750EEAC61864031C /* MSSharePointItemReference.h */,
+				B264255B50DF3BD83E536D66 /* MSSharePointItemReference.m */,
+				70A584CE6202D1454E1D7EDA /* MSSharePointModels.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		798885169281C3E1E69687A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948E882D1ED03F434C8242DF /* MSSharePointClient.h in Headers */,
+				6F1AA7A2C2BD54875930B0BA /* MSSharePointDriveCollectionFetcher.h in Headers */,
+				AB55AD061D83450E43E36A96 /* MSSharePointDriveCollectionOperations.h in Headers */,
+				EC86B2696E041DEDBA7E231E /* MSSharePointDriveFetcher.h in Headers */,
+				1EFB2823516C5976C4F4AF63 /* MSSharePointDriveOperations.h in Headers */,
+				EC5EA9AE174AF400663E2485 /* MSSharePointFetchers.h in Headers */,
+				68EDD2CC4931A920515F579F /* MSSharePointFileCollectionFetcher.h in Headers */,
+				38AAB88E219CE7DAA547D622 /* MSSharePointFileCollectionOperations.h in Headers */,
+				DEF4058C97CF812181F75F47 /* MSSharePointFileFetcher.h in Headers */,
+				60BB67B38BA28CECEE413629 /* MSSharePointFileOperations.h in Headers */,
+				C3BD2B5C15228E798A173AED /* MSSharePointFolderCollectionFetcher.h in Headers */,
+				69FAF9FB6BA0A237040B1403 /* MSSharePointFolderCollectionOperations.h in Headers */,
+				5AA9E2086F296EAB5AE1EF57 /* MSSharePointFolderFetcher.h in Headers */,
+				309E28E0F7AB00A921147C8C /* MSSharePointFolderOperations.h in Headers */,
+				AAAD49548DECF61328551E9C /* MSSharePointItemCollectionFetcher.h in Headers */,
+				4BAE7E5B5993A0E142AD6B3A /* MSSharePointItemCollectionOperations.h in Headers */,
+				AD5FE9DA8ACB756AAA5F1A32 /* MSSharePointItemFetcher.h in Headers */,
+				625251EDE33AF20A132F411A /* MSSharePointItemOperations.h in Headers */,
+				D0357579C4668CCA2E30218A /* MSSharePointDrive.h in Headers */,
+				2A62C1CB9BCF4D869DED4CD0 /* MSSharePointDriveQuota.h in Headers */,
+				3A585BCB829CF44824197F49 /* MSSharePointFile.h in Headers */,
+				437BD415470B4A1E858EB58E /* MSSharePointFolder.h in Headers */,
+				A8B6A3315FBFEC2BFABD9097 /* MSSharePointIdentity.h in Headers */,
+				E9E54128024F1AB94747F99D /* MSSharePointIdentitySet.h in Headers */,
+				92B66CCF59F3BEE48ABC44DD /* MSSharePointImageFacet.h in Headers */,
+				6AFBC278BDF86F7F9FBEE702 /* MSSharePointItem.h in Headers */,
+				51E9827149709635DD5B07A1 /* MSSharePointItemReference.h in Headers */,
+				32F88CF6930A28897049CF69 /* MSSharePointModels.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EB00078BE8B2CF2436B1FFDE /* files */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB5C7C3E8F611BDD222DA1D /* Build configuration list for PBXNativeTarget "files" */;
+			buildPhases = (
+				A6B4C360CA1B1FFE387C960A /* Check Pods Manifest.lock */,
+				FEA2FC093611DC5F962F3351 /* Sources */,
+				D73FAF19AD48F3909E6D89CD /* Frameworks */,
+				798885169281C3E1E69687A5 /* Headers */,
+				DAA3DEA0EB6A6CB6D0EE44DF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = files;
+			productName = files;
+			productReference = 1E9E9BBEB0C9563F58CC0A19 /* libfiles.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E9CD8D1F81D00953420851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 7D01ADF9566F9DD4CC61C2A9 /* Build configuration list for PBXProject "files" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1F0B2C537F376C11AFC73C3;
+			productRefGroup = E9FE85AB0D2A5176F58B55CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB00078BE8B2CF2436B1FFDE /* files */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6B4C360CA1B1FFE387C960A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA3DEA0EB6A6CB6D0EE44DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-files/Pods-files-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA2FC093611DC5F962F3351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E525CC3BE26F9F0894C31F /* MSSharePointClient.m in Sources */,
+				7452482949BD56CE3121CA3B /* MSSharePointDriveCollectionFetcher.m in Sources */,
+				F24DEA62BDF7DC2E5E98BAFF /* MSSharePointDriveCollectionOperations.m in Sources */,
+				81BB40E974008C61989D2958 /* MSSharePointDriveFetcher.m in Sources */,
+				88792288741E50A52924F697 /* MSSharePointDriveOperations.m in Sources */,
+				F44B56CBD605EEEB98902B45 /* MSSharePointFileCollectionFetcher.m in Sources */,
+				E4130A05709988ABE17E4AD6 /* MSSharePointFileCollectionOperations.m in Sources */,
+				E3C702B44AED1D5E2CEBBC8B /* MSSharePointFileFetcher.m in Sources */,
+				55A0B7FE219C56E19B0CD31F /* MSSharePointFileOperations.m in Sources */,
+				084E2BE2A1F4B8F1A1C71B02 /* MSSharePointFolderCollectionFetcher.m in Sources */,
+				44E0690627B81BB648DBD5EB /* MSSharePointFolderCollectionOperations.m in Sources */,
+				B4CC3ECF562CB0CC32741D0D /* MSSharePointFolderFetcher.m in Sources */,
+				19A37B0E5A2FDF7BB7F0F40C /* MSSharePointFolderOperations.m in Sources */,
+				5DEE38989708B4FB8EE0EF17 /* MSSharePointItemCollectionFetcher.m in Sources */,
+				C64AB94DCCC615547E18EDAE /* MSSharePointItemCollectionOperations.m in Sources */,
+				1A0D97824A38188C41E0392E /* MSSharePointItemFetcher.m in Sources */,
+				3BB3A38FF4F29B3D5F51545F /* MSSharePointItemOperations.m in Sources */,
+				87B731B9244C33B091784681 /* MSSharePointDrive.m in Sources */,
+				9B59340038145E0AF0820BEE /* MSSharePointDriveQuota.m in Sources */,
+				3B4F4677730CFE5FEA31D683 /* MSSharePointFile.m in Sources */,
+				A2655E45B0A8CC523287B8D9 /* MSSharePointFolder.m in Sources */,
+				F3C4CC098F33626E3632D665 /* MSSharePointIdentity.m in Sources */,
+				0D6076C77EF622A6D8D38278 /* MSSharePointIdentitySet.m in Sources */,
+				8DA51B4C624D83F8DEA7443A /* MSSharePointImageFacet.m in Sources */,
+				1EE8D93E63C9A2092BB86B9F /* MSSharePointItem.m in Sources */,
+				654D8F403FA9A45780A927A6 /* MSSharePointItemReference.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		026FB7D1FE69A8D9A659E58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DB1BE7E4017245A1F2EEA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		99758129D12CAE262BA6A583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EEE56F1B18636EA757AA06 /* Pods-files.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DAB78DB329FDE591A4DDED0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F55F3CCDAE577608522B67 /* Pods-files.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EB5C7C3E8F611BDD222DA1D /* Build configuration list for PBXNativeTarget "files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99758129D12CAE262BA6A583 /* Release */,
+				DAB78DB329FDE591A4DDED0C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D01ADF9566F9DD4CC61C2A9 /* Build configuration list for PBXProject "files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB1BE7E4017245A1F2EEA39 /* Debug */,
+				026FB7D1FE69A8D9A659E58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E9CD8D1F81D00953420851 /* Project object */;
+}
